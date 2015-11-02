@@ -12,13 +12,13 @@ h1 {
 }
 
 h2 {
-    font-size: 2em;
-    font-weight: 400;
+    color: #54667a;
+    font-weight: 600;
     padding: 10px 40px;
+    text-transform: uppercase;
 }
 
 h3 {
-    font-size: 1.8em;
     font-weight: 400;
 }
 
@@ -31,6 +31,11 @@ p {
 a {
     color: #1e96cf;
     text-decoration: underline;
+}
+
+.providing {
+    color: #54667a;
+    font-weight: 300;
 }
 
 .contact-header {
@@ -64,7 +69,7 @@ NAV
 }
 
 .social {
-    background-color: #;
+    background-color: #ccc;
 }
 
 li {
@@ -105,14 +110,20 @@ HERO
     max-height: 500px;
 }
 
+.hero-body-header {
+    background-color: #1e96cf;
+    color: #fff;
+    padding: 20px;
+}
+
 .hero-body {
     position: absolute;
-    top: 10%;
-    left: 10%;
+    top: 15%;
+    left: 5%;
     background: #fff;
-    height: 10%;
     width: auto;
     z-index: 999;
+    border-left: 6px solid #1e96cf;
 }
 
 /* ----
