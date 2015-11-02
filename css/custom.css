@@ -1,3 +1,49 @@
+/* ----
+TYPOGRAPHY
+
+colors:
+blue - #1e96cf
+gray blue - #54667a
+
+---- */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "proxima-nova-soft",sans-serif;
+}
+
+h1 {
+    font-size: 2.3em;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 400;
+    padding: 10px 40px;
+}
+
+h3 {
+    font-size: 1.8em;
+    font-weight: 400;
+}
+
+p {
+    font-family: "acumin-pro",sans-serif;
+    color: #54667a;
+    font-size: 14px;
+}
+
+.contact-header {
+    text-align: center;
+}
+
+#message {
+    width: 100%;
+}
+
+/* ----
+HERO
+---- */
+
 .hero {
     background-color: #fff;
 }
@@ -10,6 +56,7 @@
     background-color: #1b6d85;
     padding: 0;
     margin: 0;
+    max-height: 500px;
 }
 
 .hero-body {
@@ -17,7 +64,53 @@
     top: 10%;
     left: 10%;
     background: #fff;
-    height: auto;
-    width: 30%;
+    height: 10%;
+    width: auto;
     z-index: 999;
+}
+
+/* ----
+ABOUT
+---- */
+
+.about {
+    color: #fff;
+    height: 240px;
+}
+
+.about-left {
+    background-color: #1e96cf;
+}
+
+.about-right {
+    background-color: #54667a;
+}
+
+/* ----
+SIMPLE help
+---- */
+
+.simple-help {
+    height: 150px;
+    background-color: #f7f7f7;
+}
+
+/* ----
+Testimonials
+---- */
+
+.testimonials {
+    background-color: #3b4754;
+    height: 200px;
+    color: #fff;
+}
+
+/* ----
+Footer
+---- */
+
+.footer {
+    background-color: #54667a;
+    height: 200px;
+    color: #fff;
 }
