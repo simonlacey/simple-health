@@ -132,8 +132,8 @@ HERO
 }
 
 .hero-body-container {
-    display: none;
-    position: fixed;
+    /* display: none; */
+    position: absolute;
     top: 15%;
     left: 4%;
     background: #fff;
