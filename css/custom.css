@@ -198,9 +198,13 @@ ABOUT
     position: absolute;
     z-index: 999;
     top: 1000px;
-    left: 32%;
+    left: 70px;
     bottom: 0;
-    right: 25%;
+    right: 0;
+    margin: auto;
+    width: 430px;
+    border: none;
+    padding: 0;
 }
 
 .about-simple-header {
@@ -245,9 +249,31 @@ SIMPLE help
 ---- */
 
 .simple-help {
-    height: 150px;
-    background-color: #f7f7f7;
+    height: 200px;
+    background-color: #ffffff;
+    margin: 30px 0;
 }
+
+.simple-help-header {
+    color: #54667a;
+    font-weight: 600;
+}
+
+.simple-quick-links {
+    color: #54667a;
+    font-weight: 600;
+}
+
+.video-player {
+    font-size: 16px;
+    font-weight: 300;
+    background-color: #54667a;
+    padding: 60px;
+    color: #fff;
+    margin: auto;
+}
+
+
 
 /* ----
 Testimonials
