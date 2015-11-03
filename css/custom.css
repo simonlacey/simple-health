@@ -194,12 +194,27 @@ ABOUT
     padding: 20px;
 }
 
+.doctor {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
 .about-left {
+    position: relative;
+    z-index: 1;
     background-color: #1e96cf;
+    padding-left: 10%;
 }
 
 .about-right {
+    position: relative;
+    z-index: 1;
     background-color: #54667a;
+    padding-left: 10%;
 }
 
 /* ----
