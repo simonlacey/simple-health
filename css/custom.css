@@ -80,11 +80,6 @@ NAV
     background-color: #ccc;
 }
 
-li {
-    display: inline-block;
-    padding-right: 20px;
-}
-
 .navigation {
     display: inline-block;
     float: right;
@@ -222,12 +217,20 @@ ABOUT
     text-transform: uppercase;
 }
 
+.about-simple-subheader-right {
+    color: #0c689a;
+}
+
 .about-simple-content {
     font-weight: 300;
     color: #a9b6c5;
     margin-top: 20px;
     text-transform: none;
     max-width: 300px;
+}
+
+.about-simple-content-right {
+    color: #ffffff;
 }
 
 .about-simple-left {
@@ -244,6 +247,10 @@ ABOUT
     padding-left: 13%;
 }
 
+.about-simple-cta-button {
+    margin-top: 40px;
+}
+
 /* ----
 SIMPLE help
 ---- */
@@ -251,17 +258,56 @@ SIMPLE help
 .simple-help {
     height: 200px;
     background-color: #ffffff;
-    margin: 30px 0;
+    margin: 40px 0;
+    border-left: 3px solid #51b8f2;
+    padding-left: 10px;
 }
 
 .simple-help-header {
-    color: #54667a;
+    font-size: 2.2em;
     font-weight: 600;
+    color: #54667a;
+    text-transform: uppercase;
+}
+
+.simple-help-subheader {
+    font-size: 2em;
+    color: #54667a;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 5px;
+    margin-top: 20px;
+}
+
+.simple-help-body {
+    font-size: 1em;
+    line-height: 1.5em;
+    font-weight: 300;
 }
 
 .simple-quick-links {
-    color: #54667a;
+    font-size: 1.2em;
     font-weight: 600;
+    color: #54667a;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+ul.simple-advantages {
+    font-size: 1em;
+    color: #54667a;
+    font-weight: 300;
+    line-height: 1.85em;
+}
+
+li {
+    display: block;
+    margin-left: -30px;
+    padding-left: 0;
+}
+
+.glyphicon-ok {
+    padding-right: 10px;
 }
 
 .video-player {
