@@ -66,24 +66,25 @@ IMAGES
 /* ----
 NAV
 ---- */
-
-.intro-social {
-    border-bottom: solid 1px #ccc;
-}
-
 .we-are-simple {
     font-size: .8em;
     padding: 10px 0;
 }
 
-.social {
-    background-color: #ccc;
+.intro-social {
+    border-bottom: solid 1px #ccc;
 }
 
-.navigation {
+.social {
+    background-color: #ccc;
+    width: 300px;
+    text-align: right;
+}
+
+li .social-icons {
     display: inline-block;
-    float: right;
-    padding-top: 15px;
+    padding-right: 20px;
+    margin-top: 10px;
 }
 
 .contact-agent {
@@ -92,6 +93,18 @@ NAV
     background-color: #1e96cf;
     color: #fff;
     padding: 10px;
+}
+
+.navigation {
+    display: inline-block;
+    float: right;
+    padding-top: 15px;
+}
+
+/* todo fix nav links correctly */
+ul.navigation-links li {
+    display: inline-block;
+    padding-right: 50px;
 }
 
 /* ----
@@ -327,8 +340,45 @@ Testimonials
 
 .testimonials {
     background-color: #3b4754;
-    height: 200px;
+    height: 410px;
     color: #fff;
+}
+
+.simple-testimonials-header {
+    font-size: 1.7em;
+    text-transform: uppercase;
+}
+
+.testimonials-subheader {
+    color: #a9b6c5;
+    text-transform: uppercase;
+}
+
+.testimonials-body {
+    font-family: "acumin-pro", sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+    color: #a9b6c5;
+    margin: 40px 0;
+    line-height: 1.5em;
+}
+
+.testimonials-image {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.testimonials-name {
+    color: #fff;
+    font-size: .8em;
+    text-transform: uppercase;
+}
+
+.fa-quote-left {
+    padding: 30px 0;
+    color: #1e96cf;
 }
 
 /* ----
@@ -340,8 +390,6 @@ Footer
     height: 200px;
     color: #fff;
 }
-
-
 
 /* enable absolute positioning
  for icons in form input group */
@@ -388,3 +436,41 @@ Footer
 :-ms-input-placeholder { /* Internet Explorer 10-11
     color:    #909;
 } */
+
+
+
+
+
+
+
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
