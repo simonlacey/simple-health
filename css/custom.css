@@ -330,6 +330,8 @@ li {
     padding: 60px;
     color: #fff;
     margin: auto;
+    height: 180px;
+    width: 320px;
 }
 
 
@@ -387,9 +389,35 @@ Footer
 
 .footer {
     background-color: #54667a;
-    height: 200px;
-    color: #fff;
+    height: 300px;
 }
+
+.footer-header {
+    font-family: "proxima-nova-soft", sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-top: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.footer-content {
+    font-family: "acumin-pro", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    margin-top: 15px;
+    color: #b5c3d2;
+    text-transform: uppercase;
+    line-height: 1.7em;
+}
+
+
+
+
+
+
+
+
 
 /* enable absolute positioning
  for icons in form input group */
