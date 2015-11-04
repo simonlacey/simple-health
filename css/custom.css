@@ -1,10 +1,10 @@
-/* ----
-TYPOGRAPHY
-colors: blue - #1e96cf / gray blue - #54667a
----- */
+/*==================================================
+=                  TYPORGRAPHY                   =
+==================================================*/
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "proxima-nova-soft",sans-serif;
+    font-weight: 600;
     color: #54667a;
 }
 
@@ -25,7 +25,11 @@ h3 {
 h4 {
     color: #fff;
 }
-/* css optimizations techniqutes - should be done using sass - use for anything uppercase */
+
+/* css optimizations techniqutes
+should be done using sass
+use for anything uppercase */
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -52,25 +56,36 @@ span {
     text-align: center;
 }
 
-/* ----
-IMAGES
----- */
+/*==================================================
+=                  IMAGES                   =
+==================================================*/
 
 .logo {
     width: 140px;
     height: auto;
+    margin: 10px 0 10px 0;
 }
 
-/* ----
-NAV
----- */
+/*==================================================
+=                  NAVIGATION                   =
+==================================================*/
+
 .we-are-simple {
-    font-size: .8em;
-    padding: 10px 0;
+    font-size: .85em;
+    padding: 15px 0 5px 0;
+    font-weight: 300;
 }
 
 .nav-intro {
-    border-bottom: solid 1px #ccc;
+    border-bottom: solid 1px #e1e1e1;
+}
+
+.find-out-more {
+    text-transform: none;
+    color: #01abff;
+    font-size: 1em;
+    padding-left: 0;
+    font-weight: 300;
 }
 
 /* FONT AWESOME inline icon code */
@@ -95,9 +110,9 @@ NAV
 .contact-agent {
     font-size: .85em;
     letter-spacing: 1px;
-    font-weight: 300;
+    font-weight: 400;
     margin-left: 10px;
-    background-color: #1e96cf;
+    background-color: #51b8f2;
     color: #fff;
     padding: 10px 20px;
     width: auto;
@@ -107,7 +122,7 @@ NAV
 .navigation {
     display: inline-block;
     float: right;
-    padding-top: 8px;
+    padding-top: 4px;
 }
 
 .navigation-links, .mobile-call {
@@ -123,7 +138,7 @@ a {
 }
 
 .navigation-links {
-    margin-top: 20px;
+    margin: 24px 25px 0 0;
 }
 
 .mobile-call {
@@ -144,7 +159,7 @@ a {
 }
 
 .mobile-phone-number {
-    margin-top: 10px;
+    margin-top: 13px;
     padding-left: 0;
 }
 
@@ -152,15 +167,17 @@ a {
     float: right;
 }
 
-/* todo fix nav links correctly */
+/* todo fix nav links correctly
+already done needs to be removed
+
 ul.navigation-links li {
     display: inline-block;
     padding-right: 50px;
-}
+} */
 
-/* ----
-HERO
----- */
+/*==================================================
+=                  HERO                   =
+==================================================*/
 
 .hero {
     background-color: #fff;
@@ -193,17 +210,17 @@ HERO
 .hero-body-container {
     /* display: none; */
     position: absolute;
-    top: 15%;
-    left: 4%;
+    top: 180px;
+    left: 10%;
     background: #fff;
     width: auto;
     z-index: 999;
     border-left: 6px solid #1e96cf;
 }
 
-/* ----
-FORM
----- */
+/*==================================================
+=                  FORMS                   =
+==================================================*/
 
 .form-control {
     border: solid 1px #ccc;
@@ -241,9 +258,9 @@ color: #fff; */
     font-weight: 300;
 }
 
-/* ----
-ABOUT
----- */
+/*==================================================
+=                  ABOUT                   =
+==================================================*/
 
 .about {
     position: absolute;
@@ -317,9 +334,9 @@ ABOUT
     margin-top: 40px;
 }
 
-/* ----
-SIMPLE help
----- */
+/*==================================================
+=                  SIMPLE HELP                   =
+==================================================*/
 
 .simple-help {
     height: 200px;
@@ -388,9 +405,9 @@ li {
 
 
 
-/* ----
-Testimonials
----- */
+/*==================================================
+=                  TESTIMONIALS                   =
+==================================================*/
 
 .testimonials {
     background-color: #3b4754;
@@ -437,9 +454,9 @@ Testimonials
     color: #1e96cf;
 }
 
-/* ----
-Footer
----- */
+/*==================================================
+=                  FOOTER                   =
+==================================================*/
 
 .footer {
     background-color: #54667a;
@@ -465,59 +482,20 @@ Footer
     line-height: 1.9em;
 }
 
+/* todo fix icon addons on input forms */
 
-
-
-
-
-
-
-
-/* enable absolute positioning
- for icons in form input group */
-.inner-addon {
-    position: absolute;
-}
-
-/* style icon */
-.inner-addon .glyphicon {
-    position: absolute;
-    padding: 20px;
-    pointer-events: none;
+.input-group-addon {
+    background-color: #1e96cf;
     color: #fff;
+    border: none;
+    padding-left: 20px;
 }
 
-/* align icon */
-.left-addon .glyphicon  { left:  0px;}
-.right-addon .glyphicon { right: 0px;}
-
-/* add padding  */
-.left-addon input  { padding-left:  30px; }
-.right-addon input { padding-right: 30px; }
 
 
 
 
 
-
-
-
-
-/* todo change placehold text color - not working yet
-::-webkit-input-placeholder {  WebKit, Blink, Edge
-    color: #909;
-}
-:-moz-placeholder { /* Mozilla Firefox 4 to 18
-    color: #909;
-    opacity:  1;
-}
-::-moz-placeholder { /* Mozilla Firefox 19+
-    color:    #909;
-    opacity:  1;
-}
-:-ms-input-placeholder { /* Internet Explorer 10-11
-    color:    #909;
-} */
 
 
 
@@ -556,3 +534,46 @@ Footer
 @media only screen and (min-width : 1200px) {
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==================================================
+=           CSS DOCUMENT INFO             =
+==================================================*/
+
+/* ----
+COLORS
+
+blue - #1e96cf
+gray blue - #54667a
+
+---- */
+
+
+/* todo change placehold text color - not working yet
+::-webkit-input-placeholder {  WebKit, Blink, Edge
+    color: #909;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18
+    color: #909;
+    opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+
+    color:    #909;
+    opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11
+    color:    #909;
+} */
