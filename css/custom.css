@@ -16,7 +16,6 @@ h2 {
     color: #54667a;
     font-weight: 600;
     padding: 10px 40px;
-    text-transform: uppercase;
 }
 
 h3 {
@@ -25,6 +24,10 @@ h3 {
 
 h4 {
     color: #fff;
+}
+/* css optimizations techniqutes - should be done using sass - use for anything uppercase */
+.uppercase {
+    text-transform: uppercase;
 }
 
 p {
@@ -195,7 +198,7 @@ ABOUT
 ---- */
 
 .about {
-    position: relative;
+    position: absolute;
     color: #fff;
     height: auto;
     margin: 60px 0 0 0;
@@ -205,16 +208,17 @@ ABOUT
 .doctor {
     position: absolute;
     z-index: 999;
-    height: auto;
+    height: 550px;
     width: 430px;
-    vertical-align: bottom;
-    top: 990px;
+    margin: auto;
+    padding: 0;
+    border: none;
+    top: 1640px;
     left: 70px;
     bottom: 0;
     right: 0;
-    margin: auto;
-    border: none;
-    padding: 0;
+    vertical-align: bottom;
+    display: none;
 }
 
 .about-simple-header {
@@ -222,17 +226,16 @@ ABOUT
     font-weight: 600;
     font-size: 24px;
     color: #ffffff;
-    text-transform: uppercase;
 }
 
 .about-simple-subheader {
     font-weight: 300;
     color: #a9b6c5;
     margin-top: 30px;
-    text-transform: uppercase;
 }
 
 .about-simple-subheader-right {
+    margin-top: 30px;
     color: #0c689a;
 }
 
