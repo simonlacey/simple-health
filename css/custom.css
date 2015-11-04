@@ -36,11 +36,6 @@ p {
     font-size: 14px;
 }
 
-a {
-    color: #1e96cf;
-    text-decoration: underline;
-}
-
 span {
     margin: 0;
     padding: 0;
@@ -78,18 +73,30 @@ NAV
     border-bottom: solid 1px #ccc;
 }
 
-.social-icons {
-    color: red;
-    padding-right: 60px;
-    display: inline-block;
+/* FONT AWESOME inline icon code */
+
+.social {
     margin-top: 10px;
-    text-align: right;
+    vertical-align: middle;
+}
+
+.icon::before {
+    color: #54667a;
+    display: inline-block;
+    margin: 12px 6px 0 0;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
 }
 
 .contact-agent {
-    font-size: .9em;
+    font-size: .85em;
+    letter-spacing: 1px;
     font-weight: 300;
-    margin-top: 10px;
+    margin-left: 10px;
     background-color: #1e96cf;
     color: #fff;
     padding: 10px 20px;
@@ -100,7 +107,49 @@ NAV
 .navigation {
     display: inline-block;
     float: right;
-    padding-top: 15px;
+    padding-top: 8px;
+}
+
+.navigation-links, .mobile-call {
+    display: inline-block;
+}
+
+a {
+    font-size: .9em;
+    color: #54667a;
+    padding-left: 10px;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+}
+
+.navigation-links {
+    margin-top: 20px;
+}
+
+.mobile-call {
+    margin-left: 10px;
+    float: right;
+}
+
+.simple-health-number {
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1em;
+}
+
+.fa-mobile {
+    font-size: 3.1em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.mobile-phone-number {
+    margin-top: 10px;
+    padding-left: 0;
+}
+
+.mobile-phone-number {
+    float: right;
 }
 
 /* todo fix nav links correctly */
