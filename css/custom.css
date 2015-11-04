@@ -167,20 +167,17 @@ a {
     float: right;
 }
 
-/* todo fix nav links correctly
-already done needs to be removed
-
-ul.navigation-links li {
-    display: inline-block;
-    padding-right: 50px;
-} */
-
 /*==================================================
 =                  HERO                   =
 ==================================================*/
 
-.hero {
+
+.jumbotron {
     background-color: #fff;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    max-height: 660px;
 }
 
 .hero-image {
@@ -188,10 +185,10 @@ ul.navigation-links li {
     z-index: 1;
     width: 100%;
     height: auto;
-    background-color: #1b6d85;
+    /*background-color: #1b6d85;
     padding: 0;
     margin: 0;
-    max-height: 650px;
+    max-height: 650px;*/
 }
 
 .hero-body-header {
