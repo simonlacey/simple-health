@@ -13,9 +13,9 @@ h1 {
 }
 
 h2 {
-    color: #54667a;
+    font-size: 2em;
     font-weight: 600;
-    padding: 10px 40px;
+    color: #54667a;
 }
 
 h3 {
@@ -43,13 +43,6 @@ p {
 span {
     margin: 0;
     padding: 0;
-}
-
-.providing {
-    font-family: "acumin-pro",sans-serif;
-    color: #54667a;
-    font-weight: 300;
-    font-size: 24px;
 }
 
 .contact-header {
@@ -171,7 +164,6 @@ a {
 =                  HERO                   =
 ==================================================*/
 
-
 .jumbotron {
     background-color: #fff;
     padding-top: 0;
@@ -180,39 +172,59 @@ a {
     max-height: 660px;
 }
 
+.jumbotron p {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin: 20px 0 20px 0;
+}
+
+.hero-cta {
+    display: block;
+    margin: 20px 0 10px 0;
+    padding-left: 0;
+    color: #1e96cf;
+}
+
 .hero-image {
     position: relative;
     z-index: 1;
     width: 100%;
     height: auto;
-    /*background-color: #1b6d85;
-    padding: 0;
-    margin: 0;
-    max-height: 650px;*/
+}
+
+.hero-body-container {
+    position: absolute;
+    z-index: 999;
+    top: 260px;
+    left: 10%;
+    background: #ffffff;
+    border-left: 6px solid #1e96cf;
+}
+
+.providing {
+    font-family: "acumin-pro",sans-serif;
+    color: #54667a;
+    font-weight: 300;
+    font-size: 24px;
+    display: block;
 }
 
 .hero-body-header {
     position: absolute;
-    left: 0;
-    top: 0;
+    left: -6px;
+    top: -60px;
     background-color: #1e96cf;
     color: #fff;
     padding: 20px;
+    margin-bottom: 100px;
+    font-weight: 300;
+    letter-spacing: .1em;
 }
 
-.hero-body-content {
-    padding-top: 50px;
-}
-
-.hero-body-container {
-    /* display: none; */
-    position: absolute;
-    top: 180px;
-    left: 10%;
-    background: #fff;
-    width: auto;
-    z-index: 999;
-    border-left: 6px solid #1e96cf;
+.hero-container-body-content {
+    font-size: .9em;
+    display: block;
+    line-height: 1.7em;
 }
 
 /*==================================================
