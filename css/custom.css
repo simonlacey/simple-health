@@ -197,15 +197,15 @@ ABOUT
 .about {
     position: relative;
     color: #fff;
-    height: 480px;
+    height: auto;
     margin: 60px 0 0 0;
-    padding: 20px;
+    padding: 20px 0 96px 0;
 }
 
 .doctor {
     position: absolute;
     z-index: 999;
-    top: 1000px;
+    top: 990px;
     left: 70px;
     bottom: 0;
     right: 0;
@@ -213,11 +213,12 @@ ABOUT
     width: 430px;
     border: none;
     padding: 0;
+    vertical-align: top;
 }
 
 .about-simple-header {
     font-family: "proxima-nova-soft",sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 24px;
     color: #ffffff;
     text-transform: uppercase;
@@ -331,7 +332,6 @@ li {
     color: #fff;
     margin: auto;
     height: 180px;
-    width: 320px;
 }
 
 
@@ -359,10 +359,11 @@ Testimonials
 .testimonials-body {
     font-family: "acumin-pro", sans-serif;
     font-weight: 300;
-    font-size: 1.1em;
+    font-size: 1em;
+    font-style: italic;
     color: #a9b6c5;
     margin: 40px 0;
-    line-height: 1.5em;
+    line-height: 1.7em;
 }
 
 .testimonials-image {
@@ -376,6 +377,7 @@ Testimonials
     color: #fff;
     font-size: .8em;
     text-transform: uppercase;
+    font-style: normal;
 }
 
 .fa-quote-left {
@@ -393,9 +395,9 @@ Footer
 }
 
 .footer-header {
-    font-family: "proxima-nova-soft", sans-serif;
-    font-size: 1.2em;
-    font-weight: 300;
+    font-family: "acumin-pro", sans-serif;
+    font-size: 1.1em;
+    font-weight: 400;
     margin-top: 30px;
     color: #fff;
     text-transform: uppercase;
@@ -403,12 +405,12 @@ Footer
 
 .footer-content {
     font-family: "acumin-pro", sans-serif;
-    font-size: 1em;
+    font-size: .9em;
     font-weight: 300;
     margin-top: 15px;
     color: #b5c3d2;
     text-transform: uppercase;
-    line-height: 1.7em;
+    line-height: 1.9em;
 }
 
 
