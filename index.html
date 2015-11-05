@@ -100,7 +100,8 @@
   <div class="clearfix"></div>
 
   <!-- Contact Form -->
-  <div class="container text-center">
+  <!-- todo colors and functionality - contact php -->
+  <div class="container text-center contact-simple-section">
       <div class="row">
           <div class="col-md-12">
               <div class="contact-header uppercase">
@@ -120,7 +121,7 @@
                       <label class="sr-only" for="phonenumber">Name</label>
                       <input type="tel" class="form-control" id="phonenumber" placeholder="Phone Number">
                   </div>
-                  <!-- todo colors and functionality -->
+                  <!-- todo fix - floats over jumbotron when scaling up all the way -->
                   <div class="input-group">
                       <input class="form-control" id="dob" type="date" placeholder="Date Of Birth">
                       <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
@@ -262,42 +263,41 @@
   </div>
 
   <!-- Footers -->
-  <div class="container-fluid">
+  <div class="container-fluid footer">
       <div class="row">
-          <div class="footer">
-              <div class="col-md-3">
+          <div class="not-sure"> <!--todo do i really need this div - maybe remove? -->
+              <div class="col-md-2">
                   <p class="footer-header">Quick Links</p>
                   <ul class="footer-content" id="double">
                       <li>About Us</li>
                       <li>Contact Us</li>
                       <li>Blog</li>
                       <li>News</li>
-                      <li>About Us</li>
-                      <li>Contact Us</li>
                   </ul>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-4">
                   <p class="footer-header">Signup for Newsletter</p>
-                  <p class="footer-content">Select your newsletter, enter your email address, and click “Subscribe”</p>
-                  <div class="input-group">
-                      <input class="form-control" type="subscribe" placeholder="Subscribe">
-                      <span class="input-group-addon"><i class="fa fa-paper-plane fa-align-right"></i></span>
+                  <p class="footer-content newsletter-signup-body">Select your newsletter, enter your email address, and click “Subscribe”</p>
+                  <div class="input-group subscribe">
+                      <input class="form-control" id="subscribe" type="email" placeholder="Enter your email address">
+                      <span class="input-group-addon"><i class="fa fa-paper-plane"></i></span>
                   </div>
               </div>
               <div class="col-md-3">
                   <p class="footer-header">Opening Hours</p>
-                  <ul class="footer-content">
-                      <li>Monday - Friday <span>9:00 am - 6:00 pm</span></li>
-                      <li>Saturday <span>9:00 am - 6:00 pm</span></li>
-                      <li>Sunday <span>Closed</span></li>
+                  <ul class="footer-content opening-hours">
+                      <!--todo fix this - needs to left align properly -->
+                      <li>Monday - Friday <span class="hours-of-operation">9:00 am - 6:00 pm</span></li>
+                      <li>Saturday <span class="hours-of-operation">9:00 am - 6:00 pm</span></li>
+                      <li>Sunday <span class="hours-of-operation">Closed</span></li>
                   </ul>
               </div>
               <div class="col-md-3">
                   <p class="footer-header">Contact Us</p>
                   <p class="footer-content">200 S. Park Road. Suite #465<br>
                       Hollywood, FL 33021<br><br>
-                      <strong>Phone</strong> : (800) 492-1834<br>
-                      <strong>Email</strong> : info@simplehealth.com
+                      <strong>Phone</strong> : <span class="hours-of-operation">(800) 492-1834</span><br>
+                      <strong>Email</strong> : <span class="hours-of-operation">info@simplehealth.com</span>
                   </p>
               </div>
           </div>

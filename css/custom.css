@@ -149,6 +149,9 @@ a {
     line-height: 1em;
 }
 
+/*==================================================
+=                  ICONS                   =
+==================================================*/
 .fa-mobile {
     font-size: 3.1em;
     padding-left: 10px;
@@ -169,6 +172,7 @@ a {
 ==================================================*/
 
 .jumbotron {
+    /*position: absolute;*/
     background-color: #fff;
     margin: 0 0 20px 0;
     padding: 0;
@@ -240,6 +244,10 @@ a.fa-arrow-right {
 =                  FORMS                   =
 ==================================================*/
 
+.contact-simple-section {
+    position: relative;
+}
+
 .form-control {
     border: solid 1px #ccc;
     margin: 10px;
@@ -258,13 +266,6 @@ a.fa-arrow-right {
     font-weight: 300;
     font-size: 13px;
 }
-
-#dob {
-    background-color: #54667a;
-    border: none;
-    margin: 0;
-}
-
 .btn-primary {
     background-color: #1e96cf;
     color: #fff;
@@ -281,11 +282,34 @@ a.fa-arrow-right {
     padding-left: 0;
 }
 
+.fa-paper-plane {
+    position: relative;
+}
+
 span.input-group-addon {
     padding-left: 10px;
     border-radius: 0;
-    background-color: #54667a;
+    background-color: #01abff;
 }
+
+.subscribe {
+    width: 260px;
+}
+
+#dob {
+    background-color: #3f4e5f;
+    color: #8698aa;
+    border: none;
+    margin: 0;
+}
+
+#subscribe {
+    background-color: #3f4e5f;
+    color: #8698aa;
+    border: none;
+    margin: 0;
+}
+
 
 /*==================================================
 =                  ABOUT                   =
@@ -539,7 +563,8 @@ li {
     font-family: "acumin-pro", sans-serif;
     font-size: 1.1em;
     font-weight: 400;
-    margin-top: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     color: #fff;
     text-transform: uppercase;
 }
@@ -552,8 +577,31 @@ li {
     color: #b5c3d2;
     text-transform: uppercase;
     line-height: 1.9em;
+    margin-bottom: 20px;
 }
 
+.newsletter-signup-body {
+    font-family: "acumin-pro", sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    margin-top: 15px;
+    color: #b5c3d2;
+    text-transform: none;
+    line-height: 1.7em;
+    margin-bottom: 20px;
+}
+
+.hours-of-operation {
+    /*float: right;*/
+    padding-left: 10px;
+    color: #fff;
+}
+
+.opening-hours li {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #5f7286;
+}
 /* todo fix icon addons on input forms */
 
 .input-group-addon {
@@ -564,18 +612,19 @@ li {
 }
 
 
-
-/* style footer QUICK LINKSv
+/* style footer QUICK LINKS
 -------------------------------------------------- */
 
-ul {
+/*ul {
     width:260px;
     margin-bottom:20px;
     overflow:hidden;
     border-top:1px solid #ccc;
 }
 
-..quick-links {text-decoration: none;}
+.quick-links {
+    text-decoration: none;
+}
 
 li{
     line-height:2.5em;
@@ -584,7 +633,13 @@ li{
     display:inline;
 }
 
-#double li  { width:50%;}
+#double li {
+    width:50%;
+}
+
+.quick-links-list {
+    text-decoration: none;
+}*/
 
 
 
