@@ -556,7 +556,7 @@ li {
 
 .footer {
     background-color: #54667a;
-    height: 300px;
+    height: 360px;
 }
 
 .footer-header {
@@ -611,6 +611,26 @@ li {
     padding-left: 20px;
 }
 
+/* todo fix width */
+.copyright {
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #5f7286;
+    /*width: 85%;
+    margin-left: 25%;
+    margin-right: 25%;*/
+}
+
+.copyright-text {
+    font-size: .9em;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+}
+
+.designer {
+    color: #01abff;
+}
 
 /* style footer QUICK LINKS
 -------------------------------------------------- */
