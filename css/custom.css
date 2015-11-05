@@ -489,10 +489,10 @@ li {
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
-/* Carousel base class */
+/* --- Carousel base class
+ using testimonials class name instead --- */
 .carousel {
 
-    margin-bottom:  0px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -513,6 +513,18 @@ li {
     background-color: #3b4754;
 }
 
+.carousel-control {
+    opacity: .2;
+    background-image: none;
+}
+
+.carousel-control:focus, .carousel-control:hover {
+    opacity: .4;
+}
+
+.carousel-indicators {
+    opacity: .7;
+}
 
 /*==================================================
 =                  FOOTER                   =
@@ -553,9 +565,26 @@ li {
 
 
 
+/* style footer QUICK LINKSv
+-------------------------------------------------- */
 
+ul {
+    width:260px;
+    margin-bottom:20px;
+    overflow:hidden;
+    border-top:1px solid #ccc;
+}
 
+..quick-links {text-decoration: none;}
 
+li{
+    line-height:2.5em;
+    border-bottom:1px solid #ccc;
+    float:left;
+    display:inline;
+}
+
+#double li  { width:50%;}
 
 
 
