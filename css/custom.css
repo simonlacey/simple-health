@@ -166,9 +166,8 @@ a {
 
 .jumbotron {
     background-color: #fff;
-    padding-top: 0;
-    padding-bottom: 0;
-    margin-bottom: 20px;
+    margin: 0 0 20px 0;
+    padding: 0;
     max-height: 660px;
 }
 
@@ -176,13 +175,6 @@ a {
     font-size: 1.2em;
     font-weight: 300;
     margin: 20px 0 20px 0;
-}
-
-.hero-cta {
-    display: block;
-    margin: 20px 0 10px 0;
-    padding-left: 0;
-    color: #1e96cf;
 }
 
 .hero-image {
@@ -227,6 +219,19 @@ a {
     line-height: 1.7em;
 }
 
+.hero-cta {
+    display: block;
+    margin: 20px 0 10px 0;
+    padding-left: 0;
+    color: #1e96cf;
+}
+
+a.fa-arrow-right {
+    margin-right: 6px;
+    color: #1e96cf;
+    padding-left: 0;
+}
+
 /*==================================================
 =                  FORMS                   =
 ==================================================*/
@@ -252,8 +257,8 @@ a {
 
 #dob {
     background-color: #54667a;
-/* todo placeholder text color not working
-color: #fff; */
+    border: none;
+    margin: 0;
 }
 
 .btn-primary {
@@ -265,6 +270,17 @@ color: #fff; */
     border: none;
     text-transform: uppercase;
     font-weight: 300;
+}
+
+.fa-calendar {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+span.input-group-addon {
+    padding-left: 10px;
+    border-radius: 0;
+    background-color: #54667a;
 }
 
 /*==================================================
