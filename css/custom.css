@@ -423,13 +423,13 @@ li {
 }
 
 .video-player {
-    font-size: 16px;
+    font-size: 46px;
     font-weight: 300;
     background-color: #54667a;
-    padding: 60px;
-    color: #fff;
+    padding-top: 60px;
+    color: #6c85a1;
     margin: auto;
-    height: 180px;
+    height: 190px;
 }
 
 
