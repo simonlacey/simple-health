@@ -190,6 +190,7 @@ a {
     z-index: 1;
     width: 100%;
     height: auto;
+    max-height: 660px;
 }
 
 .hero-body-container {
@@ -354,10 +355,9 @@ span.input-group-addon {
 }
 
 .about {
-
     color: #fff;
     height: auto;
-    margin: 40px 0 0 0;
+    margin: 30px 0 0 0;
     padding: 30px 0 96px 0;
 }
 
@@ -369,17 +369,17 @@ span.input-group-addon {
     margin: auto;
     padding: 0;
     border: none;
-    top: 710px;
+    top: 690px;
     left: 60px;
     bottom: 0;
     right: 0;
-    vertical-align: bottom;
+    /* doesn't work - vertical-align: bottom; */
 }
 
 .about-simple-header {
     font-family: "proxima-nova-soft",sans-serif;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.7em;
     color: #ffffff;
 }
 
@@ -395,15 +395,20 @@ span.input-group-addon {
 }
 
 .about-simple-content {
+    font-family: "acumin-pro", sans-serif;
     font-weight: 300;
     color: #a9b6c5;
     margin-top: 20px;
     text-transform: none;
-    max-width: 300px;
+    max-width: 320px;
+}
+
+.about-simple-content-left {
+    color: #ffffff;
 }
 
 .about-simple-content-right {
-    color: #ffffff;
+    color: #d0eeff;
 }
 
 .about-simple-left {
