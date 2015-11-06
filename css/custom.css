@@ -17,9 +17,10 @@ h1 {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2.3em;
     font-weight: 600;
     color: #54667a;
+    line-height: 1.15em;
 }
 
 h4 {
@@ -77,7 +78,7 @@ span {
 
 .find-out-more {
     text-transform: none;
-    color: #01abff;
+    color: #1e96cf;
     font-size: 1em;
     padding-left: 0;
     font-weight: 300;
@@ -149,15 +150,17 @@ a {
 /*==================================================
 =                  ICONS                   =
 ==================================================*/
+
 .fa-mobile {
     font-size: 3.1em;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 5px;
 }
 
 .mobile-phone-number {
     margin-top: 13px;
     padding-left: 0;
+    text-transform: none;
 }
 
 .mobile-phone-number {
@@ -193,29 +196,28 @@ a {
     position: absolute;
     z-index: 999;
     top: 260px;
-    left: 10%;
+    left: 4%;
     background: #ffffff;
-    border-left: 6px solid #1e96cf;
+    border-left: 6px solid #51b8f2;
 }
 
 .providing {
     font-family: "acumin-pro",sans-serif;
-    color: #54667a;
     font-weight: 300;
-    font-size: 24px;
+    /*font-size: 1.2em;*/
+    color: #54667a;
     display: block;
+    margin: 30px 0 0 0;
 }
 
 .hero-body-header {
     position: absolute;
+    font-weight: 300;
+    background-color: #51b8f2;
+    color: #fff;
     left: -6px;
     top: -60px;
-    background-color: #1e96cf;
-    color: #fff;
     padding: 20px;
-    margin-bottom: 100px;
-    font-weight: 300;
-    letter-spacing: .1em;
 }
 
 .hero-container-body-content {
@@ -225,53 +227,78 @@ a {
 }
 
 .hero-cta {
-    display: block;
-    margin: 20px 0 10px 0;
-    padding-left: 0;
+    font-size: .9em;
     color: #1e96cf;
+    display: block;
+    margin: 30px 0 30px 0;
 }
 
-a.fa-arrow-right {
-    margin-right: 6px;
+.hero-cta a.fa-play {
+    margin-right: 16px;
     color: #1e96cf;
     padding-left: 0;
 }
 
 /*==================================================
-=                  FORMS                   =
+=                  SCHEDULE FORM                   =
 ==================================================*/
 
 .contact-simple-section {
     position: relative;
 }
 
+.contact-agent-header {
+    font-family: "proxima-nova-soft", sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 1.1em;
+    margin: 20px 0 20px 0;
+}
+
+.contact-agent-subheader {
+    font-family: "acumin-pro", sans-serif;
+    font-size: .5em;
+    font-weight: 300;
+    line-height: 1.1em;
+    margin: 20px 0 20px 0;
+}
+
 .form-control {
-    border: solid 1px #ccc;
+    border: solid 1px #cccccc;
     margin: 10px;
     padding: 10px;
-    color: #ccc;
+    color: #54667a;
     font-weight: 300;
-    font-size: 13px;
+    font-size: .9em;
     border-radius: 0;
     -webkit-border-radius: 0;
+    height: 38px;
+    /* input form remove inset shadow */
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.0);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.0);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
 #message {
     width: 90%;
     max-width: 1200px;
-    color: #ccc;
+    color: #54667a;
     font-weight: 300;
     font-size: 13px;
 }
+
 .btn-primary {
-    background-color: #1e96cf;
+    font-family: "acumin-pro", sans-serif;
+    font-weight: 300;
     color: #fff;
-    margin-top: 10px;
-    padding: 10px 40px;
+    background-color: #1e96cf;
+    margin-top: 20px;
+    padding: 10px 60px;
     border-radius: 0;
     border: none;
     text-transform: uppercase;
-    font-weight: 300;
 }
 
 .fa-calendar {
@@ -293,11 +320,21 @@ span.input-group-addon {
     width: 260px;
 }
 
+#fullname, #emailaddress, #phonenumber {
+    width: 95%;
+    margin-right: 60px;
+    color: #54667a;
+}
+
 #dob {
     background-color: #3f4e5f;
     color: #8698aa;
     border: none;
     margin: 0;
+}
+
+.date-of-birth {
+    margin-left: 10px;
 }
 
 #subscribe {
