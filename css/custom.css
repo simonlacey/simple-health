@@ -3,7 +3,7 @@
 /* Padding below the footer and lighter body text */
 
 /*==================================================
-=                  TYPORGRAPHY                   =
+=                  TYPOGRAPHY                   =
 ==================================================*/
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,26 +22,20 @@ h2 {
     color: #54667a;
 }
 
-h3 {
-    font-weight: 600;
-}
-
 h4 {
     color: #fff;
 }
 
-/* css optimizations techniqutes
+/* css optimizations techniques
 should be done using sass
 use for anything uppercase */
 
-.uppercase {
-    text-transform: uppercase;
-}
 
-p {
+p, body {
     font-family: "acumin-pro",sans-serif;
-    color: #54667a;
     font-size: 14px;
+    font-weight: 300;
+    color: #54667a;
 }
 
 span {
@@ -51,6 +45,10 @@ span {
 
 .contact-header {
     text-align: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 
 /*==================================================
@@ -67,14 +65,14 @@ span {
 =                  NAVIGATION                   =
 ==================================================*/
 
-.we-are-simple {
-    font-size: .85em;
-    padding: 15px 0 5px 0;
-    font-weight: 300;
-}
-
 .nav-intro {
     border-bottom: solid 1px #e1e1e1;
+}
+
+.we-are-simple {
+    font-size: .85em;
+    padding: 20px 0 0 0;
+    font-weight: 300;
 }
 
 .find-out-more {
@@ -88,8 +86,8 @@ span {
 /* FONT AWESOME inline icon code */
 
 .social {
+    margin-left: 90px;
     margin-top: 10px;
-    vertical-align: middle;
 }
 
 .icon::before {
@@ -105,15 +103,14 @@ span {
 }
 
 .contact-agent {
-    font-size: .85em;
-    letter-spacing: 1px;
-    font-weight: 400;
-    margin-left: 10px;
-    background-color: #51b8f2;
-    color: #fff;
-    padding: 10px 20px;
-    width: auto;
     float: right;
+    font-size: .85em;
+    font-weight: 300;
+    color: #fff;
+    background-color: #51b8f2;
+    margin-left: 10px;
+    padding: 15px 30px;
+    width: auto;
 }
 
 .navigation {
