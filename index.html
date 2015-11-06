@@ -14,7 +14,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
       <link href="css/custom.css" rel="stylesheet">
       <link href="css/font-awesome.min.css" rel="stylesheet">
 
@@ -46,12 +46,16 @@
               </p>
           </div>
 
-          <div class="col-md-6 text-right social">
+          <div class="col-md-3 text-right social">
               <a class="icon fa-facebook" href="#"></a>
               <a class="icon fa-twitter" href="#"></a>
               <a class="icon fa-google-plus" href="#"></a>
-              <div class="contact-agent uppercase">Contact An Agent</div>
           </div>
+
+          <div class="col-md-3 contact-agent">
+              <div class="uppercase">Contact An Agent</div>
+          </div>
+
       </div> <!-- close Row 1 -->
 
       <!-- Logo and Page Links -->
@@ -79,17 +83,17 @@
       <div class="container-fluid">
           <div class="hero">
               <img class="hero-image" src="imgs/hero-min.jpg" alt="hero"/>
-
-              <!-- todo match psd file, check responsiveness -->
-              <div class="col-md-5 hero-body-container">
+              <!-- todo check responsiveness -->
+              <div class="col-md-5 col-sm-12 hero-body-container">
                   <div class="hero-body-header uppercase">About Simple Health</div>
                   <div class="hero-container-body uppercase">
                     <h2><span class="providing">Providing</span>Affordable Health Care</h2>
                   </div>
                   <div class="hero-container-body-content">
-                      <p>Doesn’t you’re they’re herb moved he female oesn’t you’re they’re herb moved he female wherein shall upon you their kind void.<br>
-                          <span class="hero-cta uppercase"><a class="fa fa-arrow-right" href="#"></a>Call to Action</span>
-                      </p>
+                      <p>Doesn’t you’re they’re herb moved he female oesn’t you’re they’re herb moved he female wherein shall upon you their kind void.</p>
+                  </div>
+                  <div class="hover">
+                    <span class="hero-cta uppercase hover"><a class="fa fa-play" href="#">&nbsp;Call to Action</a></span>
                   </div>
               </div>
 
@@ -105,8 +109,8 @@
       <div class="row">
           <div class="col-md-12">
               <div class="contact-header uppercase">
-                  <h3>Schedule A Call From A Licensed Agent</h3>
-                  <p>It's FAST and it's SIMPLE</p>
+                  <p class="contact-agent-header">Schedule A Call From A Licensed Agent<br>
+                      <span class="contact-agent-subheader">It's FAST and it's SIMPLE</span></p>
               </div>
               <form class="form-inline">
                   <div class="form-group">
@@ -122,7 +126,7 @@
                       <input type="tel" class="form-control" id="phonenumber" placeholder="Phone Number">
                   </div>
                   <!-- todo fix - floats over jumbotron when scaling up all the way -->
-                  <div class="input-group">
+                  <div class="input-group date-of-birth">
                       <input class="form-control" id="dob" type="date" placeholder="Date Of Birth">
                       <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
                   </div>
@@ -137,27 +141,27 @@
   </div>
 
   <!-- About Us -->
-  <div class="container-fluid about-simple-section">
+  <!-- todo clean up code - don't repeat yourself philosophy -->
+  <div class="container-fluid">
       <div class="row">
-          <div class="about-simple-container">
-              <div class="doctor">
-                  <img src="imgs/doctor-min.png" alt="doctor"/>
+              <div class="about-simple-container">
+                  <div class="doctor hidden-sm hidden-xs">
+                      <img src="imgs/doctor-min.png" alt="doctor"/>
+                  </div>
+
+                  <div class="col-md-6 about about-simple-left">
+                      <p class="about-simple-subheader uppercase">Its Fast and Its Easy<br>
+                        <span class="about-simple-header">About Simple Health</span>
+                      <p class="about-simple-content">Great one let abundantly sixth let were one earth were him after one let abundantly tree seed over.<br><br>Second dominion saying void beast. Called appear multiply light that. Whose after fish likeness meat bring one night fill for gathering day let together own second sixth fisth them thing given beast isn’t tree. Have.</p>
+                      <button type="submit" class="btn btn-default btn-primary about-simple-cta-button">Book Now</button>
+                  </div>
+                  <div class="col-md-6 about about-simple-right">
+                      <p class="about-simple-subheader-right uppercase">Its Fast and Its Easy<br>
+                          <span class="about-simple-header">About Simple Health</span>
+                      <p class="about-simple-content about-simple-content-right">Great one let abundantly sixth let were one earth were him after one let abundantly tree seed over.<br><br>Second dominion saying void beast. Called appear multiply light that. Whose after fish likeness meat bring one night fill for gathering day let together own second sixth fisth them thing given beast isn’t tree. Have.</p>
+                      <button type="submit" class="btn btn-default btn-primary about-simple-cta-button">Book Now</button>
+                  </div>
               </div>
-              <!-- todo clean up code - don't repeat yourself philosophy -->
-              <div class="col-md-6 about about-simple-left">
-                  <p class="about-simple-subheader uppercase">Its Fast and Its Easy<br>
-                    <span class="about-simple-header">About Simple Health</span>
-                  <p class="about-simple-content">Great one let abundantly sixth let were one earth were him after one let abundantly tree seed over.<br><br>Second dominion saying void beast. Called appear multiply light that. Whose after fish likeness meat bring one night fill for gathering day let together own second sixth fisth them thing given beast isn’t tree. Have.</p>
-                  <button type="submit" class="btn btn-default btn-primary about-simple-cta-button">Book Now</button>
-              </div>
-              <!-- todo clean up code - don't repeat yourself philosophy -->
-              <div class="col-md-6 about about-simple-right">
-                  <p class="about-simple-subheader-right uppercase">Its Fast and Its Easy<br>
-                      <span class="about-simple-header">About Simple Health</span>
-                  <p class="about-simple-content about-simple-content-right">Great one let abundantly sixth let were one earth were him after one let abundantly tree seed over.<br><br>Second dominion saying void beast. Called appear multiply light that. Whose after fish likeness meat bring one night fill for gathering day let together own second sixth fisth them thing given beast isn’t tree. Have.</p>
-                  <button type="submit" class="btn btn-default btn-primary about-simple-cta-button">Book Now</button>
-              </div>
-          </div>
       </div>
   </div>
 
@@ -167,13 +171,13 @@
   <div class="container simple-help">
       <div class="row">
 
-              <div class="col-md-4">
+              <div class="col-md-4 simple-help-center">
                   <p class="simple-help-subheader">Simple</p>
                   <h4 class="simple-help-header">Help Center</h4>
                   <p class="simple-help-body">Have a subsidy-eligible plan? Visit our Subsidy Help Center to find out if you need to re-shop for coverage during Open Enrollment.</p>
-                  <span class="hero-cta uppercase"><a class="fa fa-arrow-right" href="#"></a>Call to Action</span>
+                  <span class="hero-cta simple-help-cta uppercase hover"><a class="fa fa-play" href="#">&nbsp;Call to Action</a></span>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-4 simple-help-center">
                   <h4 class="simple-quick-links">Advantages</h4>
                   <ul class="simple-advantages">
                       <li><span class="fa fa-check" aria-hidden="true"></span> Qualified Staff of Licensed Agents</li>
@@ -212,8 +216,8 @@
                       <p class="testimonials-subheader">We are Reliable. We are Trusted.</p>
                       <p class="testimonials-body">"Said open land from moved air his signs moveth creepeth appear apepear it. Appear living you dry out one tree. The yeilding said to give and the lesser you give the lesser you shall receive."
                           <br>
-                          <img class="img-circle testimonials-image first-slide" src="imgs/testimonials-1-min.jpg" alt="testimonials images"/>
-                          <br><span class="testimonials-name"><strong>Robert Kneeter</strong>, Ballsack USA</span>
+                          <img class="img-circle testimonials-image first-slide" src="imgs/testimonials-1-min.jpg" alt="testimonials images"/><br>
+                          <span class="testimonials-name"><strong>Robert Kneeter</strong>, Ballsack USA</span>
                       </p>
                   </div>
               </div>

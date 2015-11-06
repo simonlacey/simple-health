@@ -1,9 +1,15 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
-/* Padding below the footer and lighter body text */
+/* hide number spinner code */
+
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 
 /*==================================================
-=                  TYPORGRAPHY                   =
+=                  TYPOGRAPHY                   =
 ==================================================*/
 
 h1, h2, h3, h4, h5, h6 {
@@ -17,31 +23,26 @@ h1 {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2.3em;
     font-weight: 600;
     color: #54667a;
-}
-
-h3 {
-    font-weight: 600;
+    line-height: 1.15em;
 }
 
 h4 {
     color: #fff;
 }
 
-/* css optimizations techniqutes
+/* css optimizations techniques
 should be done using sass
 use for anything uppercase */
 
-.uppercase {
-    text-transform: uppercase;
-}
 
-p {
+p, body {
     font-family: "acumin-pro",sans-serif;
-    color: #54667a;
     font-size: 14px;
+    font-weight: 300;
+    color: #54667a;
 }
 
 span {
@@ -51,6 +52,10 @@ span {
 
 .contact-header {
     text-align: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 
 /*==================================================
@@ -67,19 +72,19 @@ span {
 =                  NAVIGATION                   =
 ==================================================*/
 
-.we-are-simple {
-    font-size: .85em;
-    padding: 15px 0 5px 0;
-    font-weight: 300;
-}
-
 .nav-intro {
     border-bottom: solid 1px #e1e1e1;
 }
 
+.we-are-simple {
+    font-size: .85em;
+    padding: 20px 0 0 0;
+    font-weight: 300;
+}
+
 .find-out-more {
     text-transform: none;
-    color: #01abff;
+    color: #1e96cf;
     font-size: 1em;
     padding-left: 0;
     font-weight: 300;
@@ -88,8 +93,8 @@ span {
 /* FONT AWESOME inline icon code */
 
 .social {
+    margin-left: 90px;
     margin-top: 10px;
-    vertical-align: middle;
 }
 
 .icon::before {
@@ -105,15 +110,14 @@ span {
 }
 
 .contact-agent {
-    font-size: .85em;
-    letter-spacing: 1px;
-    font-weight: 400;
-    margin-left: 10px;
-    background-color: #51b8f2;
-    color: #fff;
-    padding: 10px 20px;
-    width: auto;
     float: right;
+    font-size: .85em;
+    font-weight: 300;
+    color: #fff;
+    background-color: #51b8f2;
+    margin-left: 10px;
+    padding: 15px 30px;
+    width: auto;
 }
 
 .navigation {
@@ -152,15 +156,17 @@ a {
 /*==================================================
 =                  ICONS                   =
 ==================================================*/
+
 .fa-mobile {
     font-size: 3.1em;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 5px;
 }
 
 .mobile-phone-number {
     margin-top: 13px;
     padding-left: 0;
+    text-transform: none;
 }
 
 .mobile-phone-number {
@@ -172,11 +178,15 @@ a {
 ==================================================*/
 
 .jumbotron {
-    /*position: absolute;*/
+    position: relative;
     background-color: #fff;
     margin: 0 0 20px 0;
     padding: 0;
-    max-height: 660px;
+    /*max-height: 820px; done in hero-image*/
+    max-width: 1900px;
+    top: 50%;
+    left:50%;
+    transform: translateX(-50%);
 }
 
 .jumbotron p {
@@ -190,35 +200,35 @@ a {
     z-index: 1;
     width: 100%;
     height: auto;
+    max-height: 820px;
 }
 
 .hero-body-container {
     position: absolute;
     z-index: 999;
-    top: 260px;
+    top: 25%;
     left: 10%;
     background: #ffffff;
-    border-left: 6px solid #1e96cf;
+    border-left: 6px solid #51b8f2;
 }
 
 .providing {
     font-family: "acumin-pro",sans-serif;
-    color: #54667a;
     font-weight: 300;
-    font-size: 24px;
+    /*font-size: 1.2em;*/
+    color: #54667a;
     display: block;
+    margin: 30px 0 0 0;
 }
 
 .hero-body-header {
     position: absolute;
+    font-weight: 300;
+    background-color: #51b8f2;
+    color: #fff;
     left: -6px;
     top: -60px;
-    background-color: #1e96cf;
-    color: #fff;
     padding: 20px;
-    margin-bottom: 100px;
-    font-weight: 300;
-    letter-spacing: .1em;
 }
 
 .hero-container-body-content {
@@ -228,53 +238,87 @@ a {
 }
 
 .hero-cta {
-    display: block;
-    margin: 20px 0 10px 0;
-    padding-left: 0;
+    font-size: 1em;
     color: #1e96cf;
+    display: block;
+    margin: 30px 0;
 }
 
-a.fa-arrow-right {
-    margin-right: 6px;
-    color: #1e96cf;
+.simple-help-cta {
+    margin: 20px 0;
+}
+
+.hero-cta a.fa-play:hover {
+    color: #ffaa20;
+    text-decoration: none;
+}
+
+.hero-cta a.fa-play {
+    margin-right: 16px;
+    color: #51b8f2;
     padding-left: 0;
 }
 
 /*==================================================
-=                  FORMS                   =
+=                  SCHEDULE FORM                   =
 ==================================================*/
 
 .contact-simple-section {
     position: relative;
 }
 
+.contact-agent-header {
+    font-family: "proxima-nova-soft", sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 1.1em;
+    margin: 20px 0 20px 0;
+}
+
+.contact-agent-subheader {
+    font-family: "acumin-pro", sans-serif;
+    font-size: .5em;
+    font-weight: 300;
+    line-height: 1.1em;
+    margin: 20px 0 20px 0;
+}
+
 .form-control {
-    border: solid 1px #ccc;
+    border: solid 1px #cccccc;
     margin: 10px;
     padding: 10px;
-    color: #ccc;
+    color: #54667a;
     font-weight: 300;
-    font-size: 13px;
+    font-size: .9em;
     border-radius: 0;
     -webkit-border-radius: 0;
+    height: 38px;
+    /* input form remove inset shadow */
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.0);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.0);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
 #message {
     width: 90%;
     max-width: 1200px;
-    color: #ccc;
+    color: #54667a;
     font-weight: 300;
     font-size: 13px;
 }
+
 .btn-primary {
-    background-color: #1e96cf;
+    font-family: "acumin-pro", sans-serif;
+    font-weight: 300;
     color: #fff;
-    margin-top: 10px;
-    padding: 10px 40px;
+    background-color: #51b8f2;
+    margin-top: 20px;
+    padding: 10px 60px;
     border-radius: 0;
     border: none;
     text-transform: uppercase;
-    font-weight: 300;
 }
 
 .fa-calendar {
@@ -296,11 +340,21 @@ span.input-group-addon {
     width: 260px;
 }
 
+#fullname, #emailaddress, #phonenumber {
+    width: 95%;
+    margin-right: 60px;
+    color: #54667a;
+}
+
 #dob {
     background-color: #3f4e5f;
     color: #8698aa;
     border: none;
     margin: 0;
+}
+
+.date-of-birth {
+    margin-left: 10px;
 }
 
 #subscribe {
@@ -320,32 +374,36 @@ span.input-group-addon {
 }
 
 .about {
-
     color: #fff;
     height: auto;
-    margin: 40px 0 0 0;
+    margin: 30px 0 0 0;
     padding: 30px 0 96px 0;
 }
 
 .doctor {
     position: absolute;
     z-index: 999;
-    height: 550px;
+    height: auto;
     width: 430px;
     margin: auto;
     padding: 0;
     border: none;
-    top: 710px;
+    top: 0;
     left: 60px;
     bottom: 0;
     right: 0;
-    vertical-align: bottom;
+    transform: translateY(70px);
+    /* doesn't work - vertical-align: bottom; */
+}
+
+.simple-help-center {
+    padding-left: 40px;
 }
 
 .about-simple-header {
     font-family: "proxima-nova-soft",sans-serif;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.7em;
     color: #ffffff;
 }
 
@@ -361,15 +419,20 @@ span.input-group-addon {
 }
 
 .about-simple-content {
+    font-family: "acumin-pro", sans-serif;
     font-weight: 300;
     color: #a9b6c5;
     margin-top: 20px;
     text-transform: none;
-    max-width: 300px;
+    max-width: 320px;
+}
+
+.about-simple-content-left {
+    color: #ffffff;
 }
 
 .about-simple-content-right {
-    color: #ffffff;
+    color: #d0eeff;
 }
 
 .about-simple-left {
@@ -423,6 +486,7 @@ span.input-group-addon {
     line-height: 1.5em;
     font-weight: 300;
     margin-bottom: 20px;
+    max-width: 340px;
 }
 
 .simple-quick-links {
@@ -453,9 +517,9 @@ li {
 .video-player {
     font-size: 46px;
     font-weight: 300;
-    background-color: #54667a;
+    background-color: #3b4754;
     padding-top: 60px;
-    color: #6c85a1;
+    color: #4d5f73;
     margin: auto;
     height: 190px;
 }
@@ -482,13 +546,9 @@ li {
 }
 
 .testimonials-body {
-    font-family: "acumin-pro", sans-serif;
-    font-weight: 300;
-    font-size: 1em;
     font-style: italic;
     color: #a9b6c5;
     margin: 40px 0;
-    line-height: 1.7em;
 }
 
 .testimonials-image {
@@ -522,13 +582,14 @@ li {
 .carousel-caption {
     z-index: 10;
     text-shadow: none;
-    padding-top: 0;
-    margin-top: 0;
-    bottom: 30px;
+    padding-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 .carousel-caption p {
-    font-size: 1em;
+    font-family: "acumin-pro", sans-serif;
+    font-weight: 300;
+    font-size: .9em;
 }
 
 /* Declare heights because of positioning of img element */
@@ -537,13 +598,30 @@ li {
     background-color: #3b4754;
 }
 
+.carousel-control .glyphicon-chevron-right:before {
+    font-family: FontAwesome;
+    content: "\f054";
+    display:block;
+}
+
+.carousel-control .glyphicon-chevron-left:before {
+    font-family: FontAwesome;
+    content: "\f053";
+    display:block;
+}
+
 .carousel-control {
-    opacity: .2;
+    opacity: .1;
+    background-image: none;
+}
+
+.carousel-control.left, .carousel-control.right {
     background-image: none;
 }
 
 .carousel-control:focus, .carousel-control:hover {
-    opacity: .4;
+    opacity: .3;
+    background-image: none;
 }
 
 .carousel-indicators {
@@ -629,8 +707,10 @@ li {
 }
 
 .designer {
-    color: #01abff;
+    color: #51b8f2;
 }
+
+
 
 /* style footer QUICK LINKS
 -------------------------------------------------- */
@@ -673,8 +753,9 @@ li{
     /* Bump up size of carousel content */
     .carousel-caption p {
         margin-bottom: 20px;
-        font-size: 1.2em;
-        line-height: 1.4;
+        font-size: 1.1em;
+        line-height: 1.6;
+        font-weight: 300;
     }
 
 }
@@ -686,6 +767,10 @@ li{
 
 
 
+
+
+
+
 /*==================================================
 =            Bootstrap 3 Media Queries             =
 ==================================================*/
@@ -693,29 +778,29 @@ li{
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
+/*@media only screen and (min-width : 320px) {
 
 }
 
-/* Extra Small Devices, Phones */
+/!* Extra Small Devices, Phones *!/
 @media only screen and (min-width : 480px) {
 
 }
 
-/* Small Devices, Tablets */
+/!* Small Devices, Tablets *!/
 @media only screen and (min-width : 768px) {
 
 }
 
-/* Medium Devices, Desktops */
+/!* Medium Devices, Desktops *!/
 @media only screen and (min-width : 992px) {
 
 }
 
-/* Large Devices, Wide Screens */
+/!* Large Devices, Wide Screens *!/
 @media only screen and (min-width : 1200px) {
 
-}
+}*/
 
 
 
