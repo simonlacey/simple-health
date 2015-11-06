@@ -1,6 +1,12 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
-/* Padding below the footer and lighter body text */
+/* hide number spinner code */
+
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 
 /*==================================================
 =                  TYPOGRAPHY                   =
@@ -244,6 +250,7 @@ a {
 
 .hero-cta a.fa-play:hover {
     color: #ffaa20;
+    text-decoration: none;
 }
 
 .hero-cta a.fa-play {
@@ -700,8 +707,10 @@ li {
 }
 
 .designer {
-    color: #01abff;
+    color: #51b8f2;
 }
+
+
 
 /* style footer QUICK LINKS
 -------------------------------------------------- */
