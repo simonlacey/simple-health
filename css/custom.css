@@ -172,11 +172,15 @@ a {
 ==================================================*/
 
 .jumbotron {
-    /*position: absolute;*/
+    position: relative;
     background-color: #fff;
     margin: 0 0 20px 0;
     padding: 0;
-    max-height: 660px;
+    /*max-height: 820px; done in hero-image*/
+    max-width: 1900px;
+    top: 50%;
+    left:50%;
+    transform: translateX(-50%);
 }
 
 .jumbotron p {
@@ -190,14 +194,14 @@ a {
     z-index: 1;
     width: 100%;
     height: auto;
-    max-height: 660px;
+    max-height: 820px;
 }
 
 .hero-body-container {
     position: absolute;
     z-index: 999;
-    top: 260px;
-    left: 4%;
+    top: 25%;
+    left: 10%;
     background: #ffffff;
     border-left: 6px solid #51b8f2;
 }
@@ -228,10 +232,14 @@ a {
 }
 
 .hero-cta {
-    font-size: .9em;
+    font-size: 1em;
     color: #1e96cf;
     display: block;
-    margin: 30px 0 30px 0;
+    margin: 20px 0 20px 0;
+}
+
+.hero-cta a.fa-play:hover {
+    color: #ffaa20;
 }
 
 .hero-cta a.fa-play {
@@ -364,15 +372,16 @@ span.input-group-addon {
 .doctor {
     position: absolute;
     z-index: 999;
-    height: 550px;
+    height: auto;
     width: 430px;
     margin: auto;
     padding: 0;
     border: none;
-    top: 690px;
+    top: 0;
     left: 60px;
     bottom: 0;
     right: 0;
+    transform: translateY(70px);
     /* doesn't work - vertical-align: bottom; */
 }
 
@@ -462,6 +471,7 @@ span.input-group-addon {
     line-height: 1.5em;
     font-weight: 300;
     margin-bottom: 20px;
+    max-width: 340px;
 }
 
 .simple-quick-links {
