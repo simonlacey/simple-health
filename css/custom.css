@@ -8,6 +8,11 @@ input[type=date]::-webkit-outer-spin-button {
     margin: 0;
 }
 
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 /*==================================================
 =                  TYPOGRAPHY                   =
 ==================================================*/
@@ -36,7 +41,6 @@ h4 {
 /* css optimizations techniques
 should be done using sass
 use for anything uppercase */
-
 
 p, body {
     font-family: "acumin-pro",sans-serif;
