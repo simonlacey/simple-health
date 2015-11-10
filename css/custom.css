@@ -642,10 +642,10 @@ li {
 }
 
 .footer-header {
-    font-family: "acumin-pro", sans-serif;
+    font-family: "proxima-nova-soft", sans-serif;
     font-size: 1.1em;
     font-weight: 400;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 40px;
     color: #fff;
     text-transform: uppercase;
@@ -696,11 +696,9 @@ li {
 /* todo fix width */
 .copyright {
     padding-top: 20px;
-    margin-top: 20px;
+    /*margin-top: 20px;
+    margin-bottom: 20px;*/
     border-top: 1px solid #5f7286;
-    /*width: 85%;
-    margin-left: 25%;
-    margin-right: 25%;*/
 }
 
 .copyright-text {
@@ -708,6 +706,7 @@ li {
     font-weight: 300;
     color: #fff;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .designer {
@@ -719,20 +718,20 @@ li {
 /* style footer QUICK LINKS
 -------------------------------------------------- */
 
-/*ul {
-    width:260px;
+ul.quick-links {
+    width:360px;
     margin-bottom:20px;
     overflow:hidden;
-    border-top:1px solid #ccc;
+            /*border-top:1px solid #ccc;*/
 }
 
 .quick-links {
     text-decoration: none;
 }
 
-li{
+li.quick-links{
     line-height:2.5em;
-    border-bottom:1px solid #ccc;
+    /*border-bottom:1px solid #ccc;*/
     float:left;
     display:inline;
 }
@@ -741,7 +740,7 @@ li{
     width:50%;
 }
 
-.quick-links-list {
+/*.quick-links-list {
     text-decoration: none;
 }*/
 
