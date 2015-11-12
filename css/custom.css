@@ -377,16 +377,18 @@ span.input-group-addon {
 =                  ABOUT                   =
 ==================================================*/
 
-.about-simple-container {
+.about-simple {
     position: relative;
-    width: 1400px;
+    z-index: 999;
+    margin-top: 30px;
+    width: 100%;
 }
 
 .about {
     color: #fff;
     height: auto;
-    margin: 30px 0 0 0;
-    padding: 30px 0 96px 0;
+    margin: 0;
+    padding: 30px 0 30px 0;
 }
 
 .doctor {
@@ -398,11 +400,11 @@ span.input-group-addon {
     padding: 0;
     border: none;
     top: 0;
-    left: 60px;
+    left: 100px;
     bottom: 0;
     right: 0;
-    transform: translateY(70px);
-    /* doesn't work - vertical-align: bottom; */
+    transform: translateY(40px);
+    vertical-align: bottom;
 }
 
 .simple-help-center {
@@ -419,11 +421,11 @@ span.input-group-addon {
 .about-simple-subheader {
     font-weight: 300;
     color: #a9b6c5;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .about-simple-subheader-right {
-    margin-top: 30px;
+    margin-top: 60px;
     color: #0c689a;
 }
 
@@ -433,7 +435,7 @@ span.input-group-addon {
     color: #a9b6c5;
     margin-top: 20px;
     text-transform: none;
-    max-width: 320px;
+    max-width: 420px;
 }
 
 .about-simple-content-left {
@@ -449,6 +451,7 @@ span.input-group-addon {
     z-index: 1;
     background-color: #54667a;
     padding-left: 10%;
+    height: 480px;
 }
 
 .about-simple-right {
@@ -456,10 +459,11 @@ span.input-group-addon {
     z-index: 1;
     background-color: #51b8f2;
     padding-left: 13%;
+    height: 480px;
 }
 
 .about-simple-cta-button {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 /*==================================================
