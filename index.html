@@ -85,7 +85,7 @@
         <div class="hero">
             <img class="hero-image" src="imgs/hero-min.jpg" alt="hero"/>
             <!-- todo check responsiveness -->
-            <div class="col-md-5 col-sm-12 hero-body-container">
+            <div class="col-md-5 col-md-offset-1 col-sm-12 hero-body-container">
                 <div class="hero-body-header uppercase">Welcome to Simple Health</div>
                 <div class="hero-container-body uppercase">
                     <h2><span class="providing">Providing</span>Affordable Health Care</h2>
@@ -143,13 +143,12 @@
 
 <!-- About Us -->
 <!-- todo clean up code - don't repeat yourself philosophy -->
-<div class="container-fluid">
-    <div class="row">
-        <div class="about-simple-container">
+<div class="about-simple-container">
+    <div class="container">
+        <div class="row">
             <div class="doctor hidden-sm hidden-xs">
                 <img src="imgs/doctor-min.png" alt="doctor"/>
             </div>
-
             <div class="col-md-6 about about-simple-left">
                 <p class="about-simple-subheader uppercase">Health Insurance Made SIMPLE<br>
                     <span class="about-simple-header">Simple Health</span>
@@ -267,10 +266,60 @@
     </a>
 </div>
 
-<!-- Footers -->
-<div class="container-fluid footer">
+<!-- Footer New -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <p class="footer-header">Quick Links</p>
+                <ul class="footer-content quick-links" id="double">
+                    <li class="quick-links">About Us</li>
+                    <li class="quick-links">Terms of Use</li>
+                    <li class="quick-links">Contact Us</li>
+                    <li class="quick-links">Privacy Policy</li>
+                    <li class="quick-links">News</li>
+                    <li class="quick-links">Site Map</li>
+                </ul>
+            </div>
+            <div class="col-md-4" style="padding-left: 50px;">
+                <p class="footer-header">Signup for Newsletter</p>
+                <p class="footer-content newsletter-signup-body">Select your newsletter, enter your email address, and click “Subscribe”</p>
+                <div class="input-group subscribe">
+                    <input class="form-control" id="subscribe" type="email" placeholder="Enter your email address">
+                    <span class="input-group-addon"><i class="fa fa-paper-plane"></i></span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <p class="footer-header">Opening Hours</p>
+                <ul class="footer-content opening-hours">
+                    <li>Monday - Friday <span class="hours-of-operation">9:00 am - 6:00 pm</span></li>
+                    <li>Saturday <span class="hours-of-operation">9:00 am - 6:00 pm</span></li>
+                    <li>Sunday <span class="hours-of-operation">Closed</span></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <p class="footer-header">Contact Us</p>
+                <p class="footer-content">200 S. Park Road. Suite #465<br>
+                    Hollywood, FL 33021<br><br>
+                    <strong>Phone</strong> : <span class="hours-of-operation">(800) 492-1834</span><br>
+                    <strong>Email</strong> : <span class="hours-of-operation">info@simplehealth.com</span>
+                </p>
+            </div>
+        </div>
+        <div class="col-md-12 copyright">
+            <p class="copyright-text">Copyright 2015. All Rights Reserved. <span class="designer">Designed by Simple Insurance</span></p>
+        </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Footers old -->
+<!--<div class="container-fluid footer">
     <div class="row">
-        <div class="not-sure"> <!--todo do i really need this div - maybe remove? -->
+        <div class="not-sure">
+        todo do i really need this div - maybe remove?
             <div class="col-md-2">
                 <p class="footer-header">Quick Links</p>
                 <ul class="footer-content quick-links" id="double">
@@ -293,7 +342,7 @@
             <div class="col-md-3">
                 <p class="footer-header">Opening Hours</p>
                 <ul class="footer-content opening-hours">
-                    <!--todo fix this - needs to left align properly -->
+                    todo fix this - needs to left align properly
                     <li>Monday - Friday <span class="hours-of-operation">9:00 am - 6:00 pm</span></li>
                     <li>Saturday <span class="hours-of-operation">9:00 am - 6:00 pm</span></li>
                     <li>Sunday <span class="hours-of-operation">Closed</span></li>
@@ -312,7 +361,7 @@
             <p class="copyright-text">Copyright 2015. All Rights Reserved. <span class="designer">Designed by Simple Insurance</span></p>
         </div>
     </div>
-</div>
+</div>-->
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

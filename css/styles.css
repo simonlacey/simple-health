@@ -175,3 +175,19 @@ spacer serving as hr
     margin-left: 15px;
     max-width: 1030px;
 }
+
+/* Full width wrap test */
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
