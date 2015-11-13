@@ -118,7 +118,7 @@ span {
 }
 
 .contact-agent {
-    float: right;
+    /*float: right;*/
     font-size: .85em;
     font-weight: 300;
     color: #fff;
