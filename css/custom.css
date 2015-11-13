@@ -8,9 +8,9 @@ input[type=date]::-webkit-outer-spin-button {
     margin: 0;
 }
 
-.container {
+/*.container {
     width: 1240px;
-}
+}*/
 
 .container-fluid {
     padding-left: 0;
