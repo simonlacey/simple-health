@@ -1,6 +1,6 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
-/* hide number spinner code */
+/* hide input number spinner code */
 
 input[type=date]::-webkit-inner-spin-button,
 input[type=date]::-webkit-outer-spin-button {
@@ -8,7 +8,8 @@ input[type=date]::-webkit-outer-spin-button {
     margin: 0;
 }
 
-/*.container {
+/* can't use this because width needs to stay responsive
+.container {
     width: 1240px;
 }*/
 
@@ -222,10 +223,10 @@ a {
 .providing {
     font-family: "acumin-pro",sans-serif;
     font-weight: 300;
-    /*font-size: 1.2em;*/
+    font-size: 1.1em;
     color: #54667a;
     display: block;
-    margin: 30px 0 0 0;
+    margin: 20px 0 0 0;
 }
 
 .hero-body-header {
@@ -248,8 +249,17 @@ a {
     font-size: 1em;
     color: #1e96cf;
     display: block;
-    margin: 30px 0;
+    margin: 20px 0 30px 0;
+    /*border: 1px solid #51b8f2;
+    width: 35%;
+    padding: 10px;
+    border-radius: 8px;*/
 }
+
+/*.hero-cta:hover {
+    background-color: #01abff;
+    color: #ffffff;
+}*/
 
 .simple-help-cta {
     margin: 20px 0;
