@@ -117,7 +117,7 @@ p, body {
 
 .navigation {
     display: inline-block;
-    float: right;
+    /*float: right;*/
     padding-top: 4px;
     /*white-space: nowrap;*/
 }
@@ -140,7 +140,7 @@ a {
 
 .mobile-call {
     margin-left: 0;
-    /*float: right;*/
+    float: right;
 }
 
 .simple-health-number {
