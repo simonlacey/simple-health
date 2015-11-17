@@ -27,7 +27,7 @@
     <![endif]-->
 
     <!-- Live Reload Script -->
-   <!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>-->
+    <!--<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>-->
 
     <!-- Typescript -->
     <script src="https://use.typekit.net/uup3boz.js"></script>
@@ -104,11 +104,23 @@
         <div class="row">
             <div class="col-md-8">
                 <div class="health-section-1">
-                    <h2>GROUP HEALTH INSURANCE</h2>
-                    <p>Group health insurance should be affordable to both the employer and employees. Our licensed health insurance professionals work with you to find an affordable group plan that works for your organization. Getting a great group insurance plan has never been easier – it’s just a quick phone call away.</p>
-                </div>
-                <div class="health-section-w-image">
-                    <img class="group-health-image" src="imgs/group-health.jpg" alt="health insurance pic"/>
+
+                    <h2>FAQs</h2>
+                    <p class="lead">Answering Your Questions About Us</p>
+                    <p class="questions"><span class="faqs">Do we charge you any fees?</span>
+                        None whatsoever! Our service is completely free to you. You come here looking for a quality insurance policy you can afford. We find an agent that has that policy available.</p>
+                    <p class="questions"><span class="faqs">How do I purchase insurance?</span>
+                        We make the purchasing process simple for you. It starts by filling out a short form with your basic information. We then submit your information to trusted licensed agents in your state. They put together a few quotes so you can see how much it will cost and what benefits are included. Then you fill out an application online, which is then submitted to the insurance company for review. After approval, you will then begin paying your monthly premium. That’s it!</p>
+                    <p class="questions"><span class="faqs">Is my information secure?</span>
+                        We take personal privacy very seriously. Never will we sell your information to a third-party source. You won’t receive hundreds of spam emails. We know how annoying those are! Your information is only provided to insurance agents licensed in your state.</p>
+
+                    <h2>Insurance Terminology</h2>
+                    <p><strong>Premium:</strong> The monthly fee you pay to the insurance company each month in order to keep your insurance benefits active. Non-payment may lead to a termination of the policy and a lapse in coverage.</p>
+                    <p><strong>Deductible:</strong> This is the cost the insured is responsible for prior to insurance benefits kicking in. For example, if you have a $500 deductible, the insurance company isn’t responsible for paying your bills until you have paid $500 worth of expenses. In traditional co-pay plans, the deductible does not count towards Rx and regular doctor visits, although some plans require a separate deductible for Rx.</p>
+                    <p><strong>Co-Pay:</strong> A “co-pay” is simply your portion of the expense for prescription drugs or a doctor visit. It is called a co-pay because you are sharing the bill with the insurance company, although the insurance company usually takes on a greater percentage of the bill.</p>
+                    <p><strong>Co-Insurance:</strong> After the annual deductible (see above) is met, the insurance company begins chipping in for your major expenses. However, unless you have a 100% co-insurance plan, the insurance company only pays a percentage of the remaining expenses. Most co-pay plans are 80%-100%. The co-insurance percentage is the amount the insurance company pays. So if your plan is an 80% co-insurance plan, you pay 20% of the bill and the insurance company is responsible for 80% of it.</p>
+                    <p><strong>High Deductible Health Plan (HDHP):</strong> An HDHP is a less expensive form of insurance that has a high deductible. Typically, an HDHP does not cover any doctor visits, hence why the insurance premiums are cheaper. The benefit of an HDHP is they cost less per month and once the deductible is met, you pay nothing more (although some even cheaper HDHP’s do not have 100% co-insurance).</p>
+
                 </div>
             </div>
 
@@ -117,10 +129,10 @@
                 <ul>
                     <a href="health-care-reform.html" class="list-group-item">Health Care Reform</a>
                     <a href="individual-family-insurance.html" class="list-group-item">Individual &amp; Family Insurance</a>
-                    <a href="group-health-insurance.html" class="list-group-item active">Group Health Insurance</a>
+                    <a href="group-health-insurance.html" class="list-group-item">Group Health Insurance</a>
                     <a href="short-term-insurance.html" class="list-group-item">Short Term Health Insurance</a>
                     <a href="accidental-health-insurance.html" class="list-group-item">Accidental, Critical Illness &amp; Supplemental Insurance</a>
-                    <a href="faqs.html" class="list-group-item">FAQs</a>
+                    <a href="faqs.html" class="list-group-item active">FAQs</a>
                 </ul>
             </div>
             <!--todo do i need this button?
@@ -131,7 +143,6 @@
 
     </div>
 </div>
-
 
 <!-- Footer Done -->
 <div class="footer">
@@ -176,14 +187,26 @@
         <div class="col-md-12 copyright">
             <p class="copyright-text">Copyright 2015. All Rights Reserved. <span class="designer">Designed by Simple Insurance</span></p>
         </div>
-        </div>
     </div>
 </div>
+</div>
+
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+
+<!-- PAUSES CAROUSEL WHILE I WORK -->
+<!--<script>
+    $(function() {
+        $('.carousel').each(function(){
+            $(this).carousel({
+                interval: false
+            });
+        });
+    });
+</script>-->
 
 </body>
 </html>

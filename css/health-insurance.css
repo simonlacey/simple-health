@@ -50,3 +50,18 @@
     font-weight: 600;
     margin-top: 20px;
 }
+
+.faqs {
+    font-size: 1.5em;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.questions {
+    margin-bottom: 20px;
+}
+
+.group-health-image {
+    max-width: 660px;
+}
