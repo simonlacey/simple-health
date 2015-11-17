@@ -12,6 +12,41 @@
 
 .health-insurance-info {
     background-color: #ffffff;
-    margin: 10px 0;
+    margin: 20px 0;
     padding: 20px;
+}
+
+.health-insurance-body {
+    margin: 20px 0 30px 0;
+}
+
+.health-insurance-sidebar {
+    /*background-color: #ccc;*/
+    /*margin-top: 10px;*/
+    line-height: 2em;
+    text-align: right;
+}
+
+.shop-health-header {
+    font-size: 1.9em;
+    white-space: nowrap;
+    margin-bottom: 20px;
+}
+
+.health-insurance-menu {
+    margin-bottom: 20px;
+}
+
+/*.shop-for-health {
+    background-color: #01abff;
+}*/
+
+.shop-for-health-insurance {
+    font-size: 2em;
+}
+
+.call-today {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-top: 20px;
 }
