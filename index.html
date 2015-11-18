@@ -26,7 +26,7 @@
     <![endif]-->
 
     <!-- Live Reload Script -->
-    <!--<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>-->
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
     <!-- Typescript -->
     <script src="https://use.typekit.net/uup3boz.js"></script>
@@ -224,12 +224,12 @@
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
-        <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
         <li data-target="#myCarousel" data-slide-to="2 " class=""></li>
     </ol>
     <div class="carousel-inner" role="listbox">
-        <div class="item">
+        <div class="item active">
             <div class="container">
                 <div class="carousel-caption">
                     <i class="fa fa-quote-left fa-3x testimonials-intro"></i>
@@ -243,7 +243,7 @@
                 </div>
             </div>
         </div>
-        <div class="item active">
+        <div class="item">
             <div class="container">
                 <div class="carousel-caption">
                     <i class="fa fa-quote-left fa-3x testimonials-intro"></i>
@@ -388,7 +388,7 @@
 <script src="js/bootstrap.min.js"></script>
 
 <!-- PAUSES CAROUSEL WHILE I WORK -->
-<!--<script>
+<script>
     $(function() {
         $('.carousel').each(function(){
             $(this).carousel({
@@ -396,7 +396,7 @@
             });
         });
     });
-</script>-->
+</script>
 
 </body>
 </html>
