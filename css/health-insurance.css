@@ -95,3 +95,12 @@
     background-color: #01abff;
     max-width: 400px;
 }
+
+.short-term-list {
+    margin-left: 30px;
+    line-height: 2em;
+}
+
+.short-term-list-item {
+    list-style-type: circle;
+}

@@ -26,9 +26,6 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- Live Reload Script -->
-    <!--<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>-->
-
     <!-- Typescript -->
     <script src="https://use.typekit.net/uup3boz.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
@@ -72,6 +69,7 @@
                 <a href="about.html">About Us</a>
                 <a href="health-insurance.html">Health Insurance</a>
                 <a href="get-to-know-us.html">Get To Know Us</a>
+                <a href="careers.html">Careers</a>
                 <a href="contact.html">Contact Us</a>
             </div>
         </div>
@@ -91,28 +89,22 @@
 <!-- new jumbotron image -->
 <div class="jumbotron" id="health-insurance-bkgd">
     <div class="container">
-        <!--<div class="col-md-5 health-insurance-info">
-            <h2>Want to know more?</h2>
-            <p>Our agents have access to the top carriers in every state. Whether you prefer the new government run insurance plans or insurance from a trusted private carrier, we will simplify the process for you and find you the perfect plan you can afford.</p>
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">Continue reading</a></p>
-        </div>-->
     </div>
 </div>
 
 <div class="health-insurance-body">
     <div class="container">
-
-        <div class="row">
+        <div class="row" id="health-insurance-body-bkgd">
             <div class="col-md-8">
                 <div class="health-section">
                     <h3>INDIVIDUAL &amp; FAMILY INSURANCE</h3>
                     <p>We understand everyone has unique insurance needs and different financial considerations when it comes time to buy health insurance. Our goal is to identify your specific health insurance requirements and then find a plan that delivers the coverage you need at a price you can afford. Our agents have the knowledge and expertise needed to help you select a quality health care plan that is tailored to your unique situation.</p>
                 </div>
+                <hr/>
                 <div class="health-section-w-image">
-                    <img src="imgs/health-individual.jpg" alt="health insurance pic" class="health-plans-img">
+                    <img class="health-plans-img" src="imgs/health-individual.jpg" alt="health insurance pic">
                 </div>
             </div>
-
             <div class="col-md-4 health-insurance-sidebar">
                 <h3 class="shop-health-header">Shop Health Insurance</h3>
                 <ul>
@@ -124,15 +116,9 @@
                     <a href="faqs.html" class="list-group-item">FAQs</a>
                 </ul>
             </div>
-            <!--todo do i need this button?
-            <div class="shop-for-health text-right">
-                <h3 class="shop-for-health-insurance">Shop for Prices</h3>
-            </div>-->
         </div>
-
     </div>
 </div>
-
 
 <!-- Footer Done -->
 <div class="footer">
@@ -151,7 +137,7 @@
             </div>
             <div class="col-md-4 newsletter-signup">
                 <p class="footer-header">Signup for Newsletter</p>
-                <p class="footer-content newsletter-signup-body">Select your newsletter, enter your email address, and click “Subscribe”</p>
+                <p class="footer-content newsletter-signup-body" style="white-space: normal;">Select your newsletter, enter your email address, and click “Subscribe”</p>
                 <div class="input-group subscribe">
                     <input class="form-control" id="subscribe" type="email" placeholder="Enter your email address">
                     <span class="input-group-addon"><i class="fa fa-paper-plane"></i></span>
@@ -160,17 +146,17 @@
             <div class="col-md-3">
                 <p class="footer-header">Opening Hours</p>
                 <ul class="footer-content opening-hours">
-                    <li>Monday - Friday <span class="hours-of-operation">9:00 am - 6:00 pm</span></li>
-                    <li>Saturday <span class="hours-of-operation">9:00 am - 6:00 pm</span></li>
-                    <li>Sunday <span class="hours-of-operation">Closed</span></li>
+                    <li>Monday - Thursday <span class="hours-of-operation">8:00 am - 10:00 pm</span></li>
+                    <li>Friday <span class="hours-of-operation">8:00 am - 9:00 pm</span></li>
+                    <li>Saturday - Sunday <span class="hours-of-operation">9:30 am - 4:00 pm</span></li>
                 </ul>
             </div>
             <div class="col-md-3">
                 <p class="footer-header">Contact Us</p>
-                <p class="footer-content">200 S. Park Road. Suite #465<br>
-                    Hollywood, FL 33021<br><br>
+                <p class="footer-content">2 Oakwood Plaza Suite #100<br>
+                    Hollywood, FL 33020<br><br>
                     <strong>Phone</strong> : <span class="hours-of-operation">(800) 492-1834</span><br>
-                    <strong>Email</strong> : <span class="hours-of-operation">info@simplehealth.com</span>
+                    <strong>Email</strong> : <span class="hours-of-operation">info@simplehealthplans.com</span>
                 </p>
             </div>
         </div>
@@ -180,73 +166,11 @@
     </div>
 </div>
 
-<!-- LATER USE THIS FOR NAV WITH HAMBURGER
-    <!-- Logo and Page Links -->
-<!--<div class="col-lg-6 col-md-6">
-    <img class="logo" src="imgs/logo.svg" alt="logo"/>
-</div>
-<nav class="navbar navbar-inverse navbar-static-top col-md-6" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
-
-        &lt;!&ndash; Collect the nav links, forms, and other content for toggling &ndash;&gt;
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
-
-        &lt;!&ndash; Collect the nav links, forms, and other content for toggling &ndash;&gt;
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="about.php">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="contact.php">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>-->
-
-
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
 
-<!-- PAUSES CAROUSEL WHILE I WORK -->
-<!--<script>
-    $(function() {
-        $('.carousel').each(function(){
-            $(this).carousel({
-                interval: false
-            });
-        });
-    });
-</script>-->
 
 </body>
 </html>

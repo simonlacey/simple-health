@@ -26,9 +26,6 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- Live Reload Script -->
-    <!--<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>-->
-
     <!-- Typescript -->
     <script src="https://use.typekit.net/uup3boz.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
@@ -72,6 +69,7 @@
                 <a href="about.html">About Us</a>
                 <a href="health-insurance.html">Health Insurance</a>
                 <a href="get-to-know-us.html">Get To Know Us</a>
+                <a href="careers.html">Careers</a>
                 <a href="contact.html">Contact Us</a>
             </div>
         </div>
@@ -83,7 +81,6 @@
                     <span class="simple-health-number">(800) 492-1834</span></a>
             </div>
         </div>
-
     </div>
 
 </div> <!-- close Container -->
@@ -91,34 +88,35 @@
 <!-- new jumbotron image -->
 <div class="jumbotron" id="health-insurance-bkgd">
     <div class="container">
-        <div class="col-md-5 health-insurance-info">
+        <!--<div class="col-md-5 health-insurance-info">
             <h2>Want to know more?</h2>
             <p>Our agents have access to the top carriers in every state. Whether you prefer the new government run insurance plans or insurance from a trusted private carrier, we will simplify the process for you and find you the perfect plan you can afford.</p>
             <p><a class="btn btn-primary btn-lg" href="#" role="button">Continue reading</a></p>
-        </div>
+        </div>-->
     </div>
 </div>
 
 <div class="health-insurance-body">
     <div class="container">
 
-        <div class="row">
+        <div class="row" id="health-insurance-body-bkgd">
             <div class="col-md-8">
-                <div class="health-section-1">
-                    <h2>SHORT-TERM HEALTH INSURANCE</h2>
+                <div class="health-section">
+                    <h3>SHORT-TERM HEALTH INSURANCE</h3>
                     <p>Short-Term Health Insurance provides you with insurance on a temporary basis to protect against unexpected illnesses and accidents. Short-Term is less expensive that permanent health insurance. Coverage runs from 30 days up to two years, depending on your state. Usually there is not waiting period for coverage to start, and in most cases you can be covered by the next day.<br><br>
-                        Short-term insurance is ideal for:</p>
-                    <ul>
-                        <li>Individuals that are unemployed or between jobs</li>
+                        <span class="lead health-insurance-subheader">Short-term insurance is ideal for:</span></p>
+                    <ul class="short-term-list">
+                        <li class="short-term-list-item">Individuals that are unemployed or between jobs</li>
                         <li>Those waiting on open enrollment for permanent insurance under the Affordable Care Act</li>
                         <li>Early retirees –prior to age 65 (Medicare enrollment age)</li>
                         <li>Young adults no longer covered under a parent’s health insurance</li>
                         <li>Those going on an extended vacation overseas</li>
                     </ul>
+                    <hr/>
                     <p>Getting Short-Term Insurance is quick and easy — just fill out the free quote request form and a qualified licensed insurance professional will contact you straight away to help you enroll.</p>
                 </div>
                 <div class="health-section-w-image">
-                    <img src="imgs/short-term.jpg" alt="health insurance pic"/>
+                    <img class="health-plans-img" src="imgs/short-term.jpg" alt="health insurance pic"/>
                 </div>
             </div>
 
@@ -133,10 +131,6 @@
                     <a href="faqs.html" class="list-group-item">FAQs</a>
                 </ul>
             </div>
-            <!--todo do i need this button?
-            <div class="shop-for-health text-right">
-                <h3 class="shop-for-health-insurance">Shop for Prices</h3>
-            </div>-->
         </div>
 
     </div>
@@ -159,7 +153,7 @@
             </div>
             <div class="col-md-4 newsletter-signup">
                 <p class="footer-header">Signup for Newsletter</p>
-                <p class="footer-content newsletter-signup-body">Select your newsletter, enter your email address, and click “Subscribe”</p>
+                <p class="footer-content newsletter-signup-body" style="white-space: normal;">Select your newsletter, enter your email address, and click “Subscribe”</p>
                 <div class="input-group subscribe">
                     <input class="form-control" id="subscribe" type="email" placeholder="Enter your email address">
                     <span class="input-group-addon"><i class="fa fa-paper-plane"></i></span>
@@ -168,17 +162,17 @@
             <div class="col-md-3">
                 <p class="footer-header">Opening Hours</p>
                 <ul class="footer-content opening-hours">
-                    <li>Monday - Friday <span class="hours-of-operation">9:00 am - 6:00 pm</span></li>
-                    <li>Saturday <span class="hours-of-operation">9:00 am - 6:00 pm</span></li>
-                    <li>Sunday <span class="hours-of-operation">Closed</span></li>
+                    <li>Monday - Thursday <span class="hours-of-operation">8:00 am - 10:00 pm</span></li>
+                    <li>Friday <span class="hours-of-operation">8:00 am - 9:00 pm</span></li>
+                    <li>Saturday - Sunday <span class="hours-of-operation">9:30 am - 4:00 pm</span></li>
                 </ul>
             </div>
             <div class="col-md-3">
                 <p class="footer-header">Contact Us</p>
-                <p class="footer-content">200 S. Park Road. Suite #465<br>
-                    Hollywood, FL 33021<br><br>
+                <p class="footer-content">2 Oakwood Plaza Suite #100<br>
+                    Hollywood, FL 33020<br><br>
                     <strong>Phone</strong> : <span class="hours-of-operation">(800) 492-1834</span><br>
-                    <strong>Email</strong> : <span class="hours-of-operation">info@simplehealth.com</span>
+                    <strong>Email</strong> : <span class="hours-of-operation">info@simplehealthplans.com</span>
                 </p>
             </div>
         </div>

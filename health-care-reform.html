@@ -26,8 +26,6 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- Live Reload Script -->
-
     <!-- Typescript -->
     <script src="https://use.typekit.net/uup3boz.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
@@ -71,6 +69,7 @@
                 <a href="about.html">About Us</a>
                 <a href="health-insurance.html">Health Insurance</a>
                 <a href="get-to-know-us.html">Get To Know Us</a>
+                <a href="careers.html">Careers</a>
                 <a href="contact.html">Contact Us</a>
             </div>
         </div>
@@ -90,40 +89,34 @@
 <!-- new jumbotron image -->
 <div class="jumbotron" id="health-insurance-bkgd">
     <div class="container">
-        <!--<div class="col-md-5 health-insurance-info">
-            <h2>Want to know more?</h2>
-            <p>Our agents have access to the top carriers in every state. Whether you prefer the new government run insurance plans or insurance from a trusted private carrier, we will simplify the process for you and find you the perfect plan you can afford.</p>
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">Continue reading</a></p>
-        </div>-->
     </div>
 </div>
 
 <div class="health-insurance-body">
     <div class="container">
 
-        <div class="row">
+        <div class="row" id="health-insurance-body-bkgd">
             <div class="col-md-8">
                 <div class="health-section">
-                    <h3>HEALTH CARE REFORM</h3>
+                    <h2>Health Care Reform</h2>
                     <p>The Affordable Care Act (ACA) was enacted with the goal of making health insurance more affordable and accessible for Americans, as well as to lower overall health costs by increasing participation. As of January 2014, health insurance plans are now available from private insurance carriers and through the Health Insurance Marketplace (aka: the Federal and State Exchanges).</p>
-                    <hr/>
-                    <div class="health-section">
-                        <h3>What You Need To Know</h3>
-                        <p>Under the ACA, all U.S. citizens are required to obtain health insurance, whether through their employer, private insurance companies or through the Health Insurance Marketplace. Those who fail to obtain insurance may face fees or taxes. Those individuals that cannot afford a plan offered through a private insurer or the Exchange can apply for government assistance online at www.healthcare.gov.</p>
-                    </div>
-                    <hr/>
-                    <div class="health-section">
-                        <h3>Here to Assist You With Your Insurance Needs</h3>
-                        <p>Our goal is to find you the best, most affordable health insurance plan available. We are committed to providing the very best customer care.</p>
-                    </div>
-                    <hr/>
-                    <div class="health-section">
-                        <h3>Providing the Guidance You Need</h3>
-                        <p>The federal Healthcare.gov website can be confusing. Many people have a difficult time determining whether purchasing insurance through the healthcare Exchange or through a private insurance carrier would be better.<br><br>We can help cut through the confusion. We have agents licensed in all 50 states that are very knowledgeable about the Exchange and the plans offered there. They can help you make an informed decision and choose the appropriate path that best suits your needs –whether through the Exchange or a private insurer.</p>
-                    </div>
+                </div>
+                <hr/>
+                <div class="health-section">
+                    <h3 class="health-insurance-subheader">What You Need To Know</h3>
+                    <p>Under the ACA, all U.S. citizens are required to obtain health insurance, whether through their employer, private insurance companies or through the Health Insurance Marketplace. Those who fail to obtain insurance may face fees or taxes. Those individuals that cannot afford a plan offered through a private insurer or the Exchange can apply for government assistance online at www.healthcare.gov.</p>
+                </div>
+                <hr/>
+                <div class="health-section">
+                    <h3 class="health-insurance-subheader">Here to Assist You With Your Insurance Needs</h3>
+                    <p>Our goal is to find you the best, most affordable health insurance plan available. We are committed to providing the very best customer care.</p>
+                </div>
+                <hr/>
+                <div class="health-section">
+                    <h3 class="health-insurance-subheader">Providing the Guidance You Need</h3>
+                    <p>The federal Healthcare.gov website can be confusing. Many people have a difficult time determining whether purchasing insurance through the healthcare Exchange or through a private insurance carrier would be better.<br><br>We can help cut through the confusion. We have agents licensed in all 50 states that are very knowledgeable about the Exchange and the plans offered there. They can help you make an informed decision and choose the appropriate path that best suits your needs –whether through the Exchange or a private insurer.</p>
                 </div>
             </div>
-
             <div class="col-md-4 health-insurance-sidebar">
                 <h3 class="shop-health-header">Shop Health Insurance</h3>
                 <ul>
@@ -132,15 +125,11 @@
                     <a href="group-health-insurance.html" class="list-group-item">Group Health Insurance</a>
                     <a href="short-term-insurance.html" class="list-group-item">Short Term Health Insurance</a>
                     <a href="accidental-health-insurance.html" class="list-group-item">Accidental, Critical Illness &amp; Supplemental Insurance</a>
-                    <a href="faqs.html" class="list-group-item">FAQs</a>
+                       <a href="faqs.html" class="list-group-item">FAQs</a>
                 </ul>
             </div>
-            <!--todo do i need this button?
-            <div class="shop-for-health text-right">
-                <h3 class="shop-for-health-insurance">Shop for Prices</h3>
-            </div>-->
-        </div>
 
+        </div>
     </div>
 </div>
 
@@ -161,7 +150,7 @@
             </div>
             <div class="col-md-4 newsletter-signup">
                 <p class="footer-header">Signup for Newsletter</p>
-                <p class="footer-content newsletter-signup-body">Select your newsletter, enter your email address, and click “Subscribe”</p>
+                <p class="footer-content newsletter-signup-body" style="white-space: normal;">Select your newsletter, enter your email address, and click “Subscribe”</p>
                 <div class="input-group subscribe">
                     <input class="form-control" id="subscribe" type="email" placeholder="Enter your email address">
                     <span class="input-group-addon"><i class="fa fa-paper-plane"></i></span>
@@ -170,17 +159,17 @@
             <div class="col-md-3">
                 <p class="footer-header">Opening Hours</p>
                 <ul class="footer-content opening-hours">
-                    <li>Monday - Friday <span class="hours-of-operation">9:00 am - 6:00 pm</span></li>
-                    <li>Saturday <span class="hours-of-operation">9:00 am - 6:00 pm</span></li>
-                    <li>Sunday <span class="hours-of-operation">Closed</span></li>
+                    <li>Monday - Thursday <span class="hours-of-operation">8:00 am - 10:00 pm</span></li>
+                    <li>Friday <span class="hours-of-operation">8:00 am - 9:00 pm</span></li>
+                    <li>Saturday - Sunday <span class="hours-of-operation">9:30 am - 4:00 pm</span></li>
                 </ul>
             </div>
             <div class="col-md-3">
                 <p class="footer-header">Contact Us</p>
-                <p class="footer-content">200 S. Park Road. Suite #465<br>
-                    Hollywood, FL 33021<br><br>
+                <p class="footer-content">2 Oakwood Plaza Suite #100<br>
+                    Hollywood, FL 33020<br><br>
                     <strong>Phone</strong> : <span class="hours-of-operation">(800) 492-1834</span><br>
-                    <strong>Email</strong> : <span class="hours-of-operation">info@simplehealth.com</span>
+                    <strong>Email</strong> : <span class="hours-of-operation">info@simplehealthplans.com</span>
                 </p>
             </div>
         </div>

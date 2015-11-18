@@ -698,10 +698,11 @@ li {
     text-transform: uppercase;
     line-height: 1.9em;
     margin-bottom: 20px;
+    white-space: nowrap;
 }
 
 .newsletter-signup {
-    padding-left: 80px;
+    padding-left: 60px;
 }
 
 .newsletter-signup-body {
