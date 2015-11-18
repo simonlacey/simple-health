@@ -45,9 +45,10 @@ use for anything uppercase */
 
 p, body {
     font-family: "acumin-pro",sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 300;
     color: #54667a;
+    line-height: 1.5em;
 }
 
 .uppercase {
@@ -697,6 +698,10 @@ li {
     text-transform: uppercase;
     line-height: 1.9em;
     margin-bottom: 20px;
+}
+
+.newsletter-signup {
+    padding-left: 80px;
 }
 
 .newsletter-signup-body {
