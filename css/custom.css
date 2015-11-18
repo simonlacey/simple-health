@@ -189,6 +189,7 @@ a {
 .jumbotron p {
     font-size: 1.2em;
     font-weight: 300;
+    line-height: 1.4em;
     margin: 20px 0 20px 0;
 }
 
@@ -211,7 +212,7 @@ a {
 .providing {
     font-family: "acumin-pro",sans-serif;
     font-weight: 300;
-    font-size: 1.1em;
+    font-size: .9em;
     color: #54667a;
     display: block;
     margin: 20px 0 0 0;
@@ -234,10 +235,12 @@ a {
 }
 
 .hero-cta {
-    font-size: 1em;
+    font-family: "acumin-pro", sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
     color: #1e96cf;
     display: block;
-    margin: 20px 0 30px 0;
+    margin: 20px 0 20px 0;
     /* rounded button css
     border: 1px solid #51b8f2;
     width: 35%;
@@ -330,6 +333,11 @@ a {
     border-radius: 0;
     border: none;
     text-transform: uppercase;
+}
+
+.btn-schedule {
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 .fa-calendar {
@@ -840,7 +848,7 @@ li.quick-links{
     }
 
     .providing {
-        font-size: .7em;
+        font-size: .5em;
     }
 
     .jumbotron {
