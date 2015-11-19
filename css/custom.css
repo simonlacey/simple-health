@@ -640,7 +640,7 @@ li {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-    height: 480px;
+    height: 500px;
     background-color: #3b4754;
 }
 
