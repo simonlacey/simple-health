@@ -1,0 +1,118 @@
+/* jumbotron
+-------------------------------------------------- */
+/* hide input number spinner code */
+
+#health-insurance-bkgd {
+    background-image: url("../imgs/hero-get-to-know-us.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 460px;
+    margin-bottom: 0;
+}
+
+.health-insurance-info {
+    background-color: #ffffff;
+    margin: 50px 0;
+    padding: 20px;
+}
+
+.health-insurance-body {
+    margin: 0;
+}
+
+.health-insurance-sidebar {
+    line-height: 2em;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.health-plans-img {
+    max-width: 95%;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.health-section {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+#health-insurance-body-bkgd {
+    margin: 10px 0;
+}
+
+.shop-health-header {
+    font-size: 1.8em;
+    white-space: nowrap;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.health-insurance-menu {
+    margin-bottom: 20px;
+}
+
+.health-insurance-subheader {
+    font-family: "acumin-pro", sans-serif;
+    font-size: 1.4em;
+    font-weight: 300;
+    color: #01b0ff;
+}
+
+.insurance-terminology {
+    font-family: "acumin-pro", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    color: #01b0ff;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+/*.shop-for-health {
+    background-color: #01abff;
+}*/
+
+.shop-for-health-insurance {
+    font-size: 2em;
+}
+
+.call-today {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.faqs {
+    font-size: 1.5em;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.questions {
+    margin-bottom: 20px;
+}
+
+.group-health-image {
+    max-width: 660px;
+}
+
+.contact-form-health-insurance {
+    background-color: #01abff;
+    max-width: 400px;
+}
+
+.short-term-list {
+    margin-left: 30px;
+    line-height: 2em;
+}
+
+.short-term-list-item {
+    list-style-type: circle;
+}
+
+.insurance-type-plans {
+    font-weight: 600;
+}
