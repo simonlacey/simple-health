@@ -117,3 +117,13 @@
 .insurance-type-plans {
     font-weight: 600;
 }
+
+.careers-list {
+    margin: 20px;
+    line-height: 2em;
+    list-style-type: circle; !important;
+}
+
+.careers-contact-info {
+    display: block;
+}
