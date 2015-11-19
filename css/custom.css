@@ -703,7 +703,7 @@ li {
     font-family: "proxima-nova-soft", sans-serif;
     font-size: 1.1em;
     font-weight: 400;
-    margin-top: 60px;
+    margin-top: 40px;
     margin-bottom: 40px;
     color: #fff;
     text-transform: uppercase;
@@ -711,7 +711,7 @@ li {
 
 .footer-content {
     font-family: "acumin-pro", sans-serif;
-    font-size: .9em;
+    font-size: .85em;
     font-weight: 300;
     margin-top: 15px;
     color: #b5c3d2;
@@ -721,15 +721,11 @@ li {
     white-space: nowrap;
 }
 
-.newsletter-signup {
-    padding-left: 60px;
-}
-
 .newsletter-signup-body {
     font-family: "acumin-pro", sans-serif;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 300;
-    margin-top: 15px;
+    margin-top: 14px;
     color: #b5c3d2;
     text-transform: none;
     line-height: 1.7em;
@@ -737,14 +733,13 @@ li {
 }
 
 .hours-of-operation {
-    /*float: right;*/
-    padding-left: 10px;
+    padding-left: 0px;
     color: #fff;
 }
 
 .opening-hours li {
-    margin-bottom: 20px;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
     border-bottom: 1px solid #5f7286;
 }
 /* todo fix icon addons on input forms */
@@ -781,11 +776,24 @@ li {
 /* style footer QUICK LINKS
 -------------------------------------------------- */
 
-ul.quick-links {
+.simple-quick-links {
+    margin-bottom: 0;
+}
+
+li.simple-quick-links a {
+    color: #b5c3d2;
+    margin-left: 0;
+    padding-left: 0;
+    font-size: .75em;
+    font-weight: 300;
+    line-height: 1em;
+}
+
+/*ul.quick-links {
     width:320px;
     margin-bottom:20px;
     overflow:hidden;
-            /*border-top:1px solid #ccc;*/
+            /!*border-top:1px solid #ccc;*!/
 }
 
 .quick-links {
@@ -794,14 +802,14 @@ ul.quick-links {
 
 li.quick-links{
     line-height:2.5em;
-    /*border-bottom:1px solid #ccc;*/
+    /!*border-bottom:1px solid #ccc;*!/
     float:left;
-    display:inline;
+    display:inline-block;
 }
 
 #double li {
     width:50%;
-}
+}*/
 
 
 /*.quick-links-list {
