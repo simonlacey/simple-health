@@ -116,7 +116,7 @@ p, body {
     display: inline-block;
     /*float: right;*/
     padding-top: 4px;
-    /*white-space: nowrap;*/
+    white-space: prewrap;
 }
 
 .navigation-links, .mobile-call {
@@ -353,10 +353,6 @@ input#emailaddress.form-control.input-contact-page {
     width: 300px;
     margin-left: 0;
 }
-
-/*.talk-with-agent {
-    margin-left: -60px;
-}*/
 
 .fa-calendar {
     margin-left: 0;
@@ -880,7 +876,7 @@ li.quick-links{
 
     .navigation-links {
         margin: 24px 25px 0 0;
-
+        display: inline-block;
     }
 
     .contact-simple-section {
@@ -952,12 +948,25 @@ li.quick-links{
         max-width: 95%;
     }
 
+    #fullname, #emailaddress, #phonenumber, #message {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .form-control {
+        margin: 0;
+    }
+
+    .contact-agent-header {
+        margin-top: 2%;
+    }
+
 }
 
 
 @media only screen and (min-width : 320px) and (max-width: 478px) {
     .logo {
-        width: 100px;
+        width: 140px;
         height: auto;
         margin: 15px 0 10px 0;
     }
@@ -973,6 +982,15 @@ li.quick-links{
     .hero-body-container {
         top: 40px;
         border-left: none;
+    }
+
+    #fullname, #emailaddress, #phonenumber, #message {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .form-control {
+        margin: 0;
     }
 
     .contact-simple-section {
@@ -1023,10 +1041,6 @@ li.quick-links{
         font-size: .7em;
     }
 
-    #message {
-        width: 95%;
-    }
-
     .about-simple {
         margin-top: 0;
         width: 100%;
@@ -1050,8 +1064,28 @@ li.quick-links{
     }
 
     .btn-secondary {
-        color: #51b8f2;
+        color: #11669c;
         background-color: #ffffff;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        font-weight: 600;
+    }
+
+    .about-simple-left {
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .about-simple-right {
+        margin-top: 0px;
+    }
+
+    .carousel .item {
+        height: 700px;
+    }
+
+    .jumbotron p, .lead {
+        font-size: 1.1em;
     }
 
 }
