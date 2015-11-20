@@ -116,7 +116,8 @@ p, body {
     display: inline-block;
     /*float: right;*/
     padding-top: 4px;
-    white-space: prewrap;
+    white-space: normal;
+    display: inline-block;
 }
 
 .navigation-links, .mobile-call {
@@ -803,8 +804,6 @@ li {
     color: #51b8f2;
 }
 
-
-
 /* style footer QUICK LINKS
 -------------------------------------------------- */
 
@@ -914,7 +913,7 @@ li.quick-links{
     }
 
     .providing {
-        font-size: .5em;
+        font-size: .85em;
     }
 
     .jumbotron {
@@ -959,6 +958,13 @@ li.quick-links{
 
     .contact-agent-header {
         margin-top: 2%;
+    }
+
+    .health-insurance-symbol-bkgd {
+        margin-top: 0;
+        background-color: #fff;
+        border-radius: 0;
+        border: none;
     }
 
 }
@@ -1088,6 +1094,22 @@ li.quick-links{
         font-size: 1.1em;
     }
 
+    .who-we-are {
+        padding-top: 260px;
+    }
+
+    .schedule-appointment-form {
+        margin-top: 280px;
+    }
+
+    .btn-contact-schedule {
+        margin-bottom: 0;
+    }
+
+    .contact-information-email {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
 }
 
 

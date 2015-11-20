@@ -4,12 +4,13 @@
 
 #health-insurance-bkgd {
     background-image: url("../imgs/hero-health-insurace-min.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 460px;
-    margin-bottom: 0;
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+    min-height: 430px;
 }
 
 .health-insurance-info {
